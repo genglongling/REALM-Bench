@@ -2,11 +2,11 @@ from colorama import Fore
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from agentic_patterns.utils.completions import build_prompt_structure
-from agentic_patterns.utils.completions import completions_create
-from agentic_patterns.utils.completions import FixedFirstChatHistory
-from agentic_patterns.utils.completions import update_chat_history
-from agentic_patterns.utils.logging import fancy_step_tracker
+from src.utils.completions import build_prompt_structure
+from src.utils.completions import completions_create
+from src.utils.completions import FixedFirstChatHistory
+from src.utils.completions import update_chat_history
+from src.utils.logging import custom_step_tracker
 
 load_dotenv()
 
@@ -20,9 +20,10 @@ You must always output the revised content.
 BASE_REFLECTION_SYSTEM_PROMPT = """
 You are tasked with generating critique and recommendations to the user's generated content.
 If the user content has something wrong or something to be improved, output a list of recommendations
-and critiques. If the user content is ok and there's nothing to change, output this: <OK>
+and critiques. Find at least one aspect to critique. 
 """
 
+# You could also add the following sentence to the reflection prompt: If the user content is ok and there's nothing to change, output this: <OK>
 
 class ReflectionAgent:
     """
@@ -32,11 +33,11 @@ class ReflectionAgent:
 
     Attributes:
         model (str): The model name used for generating and reflecting on responses.
-        client (Groq): An instance of the Groq client to interact with the language model.
+        client (OpenAI): An instance of the OpenAI client to interact with the language model.
     """
 
-    def __init__(self, model: str = "llama-3.1-70b-versatile"):
-        self.client = Groq()
+    def __init__(self, model: str = "gpt-4o"):
+        self.client = OpenAI()
         self.model = model
 
     def _request_completion(
@@ -47,7 +48,7 @@ class ReflectionAgent:
         log_color: str = "",
     ):
         """
-        A private method to request a completion from the Groq model.
+        A private method to request a completion from the OpenAI model.
 
         Args:
             history (list): A list of messages forming the conversation or reflection history.
@@ -99,7 +100,7 @@ class ReflectionAgent:
         user_msg: str,
         generation_system_prompt: str = "",
         reflection_system_prompt: str = "",
-        n_steps: int = 10,
+        n_steps: int = 3,
         verbose: int = 0,
     ) -> str:
         """
@@ -119,11 +120,7 @@ class ReflectionAgent:
         generation_system_prompt += BASE_GENERATION_SYSTEM_PROMPT
         reflection_system_prompt += BASE_REFLECTION_SYSTEM_PROMPT
 
-        # Given the iterative nature of the Reflection Pattern, we might exhaust the LLM context (or
-        # make it really slow). That's the reason I'm limitting the chat history to three messages.
-        # The `FixedFirstChatHistory` is a very simple class, that creates a Queue that always keeps
-        # fixeed the first message. I thought this would be useful for maintaining the system prompt
-        # in the chat history.
+
         generation_history = FixedFirstChatHistory(
             [
                 build_prompt_structure(prompt=generation_system_prompt, role="system"),
@@ -134,12 +131,12 @@ class ReflectionAgent:
 
         reflection_history = FixedFirstChatHistory(
             [build_prompt_structure(prompt=reflection_system_prompt, role="system")],
-            total_length=3,
+            total_length=3, #is kept to 3 as this should be enough
         )
 
         for step in range(n_steps):
             if verbose > 0:
-                fancy_step_tracker(step, n_steps)
+                custom_step_tracker(step, n_steps)
 
             # Generate the response
             generation = self.generate(generation_history, verbose=verbose)
