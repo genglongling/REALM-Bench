@@ -8,3 +8,5 @@ langgraph==0.2.39
 autogen~=0.2
 crewai==0.70.1
 git+https://github.com/openai/swarm.git@main#egg=swarm
+openai
+colorama
