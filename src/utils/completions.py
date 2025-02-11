@@ -10,7 +10,7 @@ def completions_create(client, messages: list, model: str) -> str:
     Returns:
         str: The content of the model's response.
     """
-    response = client.chat.completions.create(messages=messages, model=model)
+    response = client.chat.completions.create(messages=messages, model=model,temperature=0.3, max_tokens=3000 )
     return str(response.choices[0].message.content)
 
 
