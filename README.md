@@ -25,5 +25,5 @@ If you find this repository helpful, consider citing the following paper:
 
 ```
 REALM-Bench: A Real-World Planning Benchmark for LLMs and Multi-Agent Systems
-Longling Geng, Edward Y. Chang
+Anonymous Author(s) 
 ```
