@@ -12,7 +12,7 @@ This repository provides
 - activate the  virtual environment `source venv/bin/activate` (`venv\Scripts\activate` on windows)
 - install the requirements `pip install -r requirements.txt` 
 - create a `.env` files and add an openai key to it `OPENAI_API_KEY="sk-proj ...."`
-- create your **special use case** in "design_patterns/multiagent.ipynb".
+- create your **specialized/taylored use case** in "design_patterns/multiagent.ipynb".
 
 
 2) Using on of the agent frameworks:
