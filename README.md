@@ -8,11 +8,11 @@ This repository provides
 
 # How To Run
 1) Follow these steps to get started:
-- create virtual environment `python3 -m venv venv` 
+- create virtual environment `python3 -m venv venv` OR set python==3.10+ for your venv on your editor
 - activate the  virtual environment `source venv/bin/activate` (`venv\Scripts\activate` on windows)
 - install the requirements `pip install -r requirements.txt` 
 - create a `.env` files and add an openai key to it `OPENAI_API_KEY="sk-proj ...."`
-- create your **specialized/taylored use case** in "design_patterns/multiagent.ipynb".
+- open "jupyter notebook" by terminal/editor and create your **specialized/taylored use case** in "design_patterns/multiagent.ipynb".
 
 
 2) Using on of the agent frameworks:
