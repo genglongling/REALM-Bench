@@ -15,7 +15,7 @@ This repository provides
 - open "jupyter notebook" on terminal/editor and create your **specialized/taylored use case** in "design_patterns/multiagent.ipynb".
 
 
-2) Using on of the agent frameworks:
+2) (Optional) Using on of the agent frameworks:
 - execute the`main.py` of the one of the frameworks, e.g. `python agent_frameworks/openai_swarm_agent`
 - For using Autogen you need to have docker running. I you do not have it installed on your system, download it from the website (https://docs.docker.com/get-started/get-docker/). Then install and open it.
 
