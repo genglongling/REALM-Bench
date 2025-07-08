@@ -140,11 +140,12 @@ Evaluate multi-agent planning performance across frameworks:
 
 ---
 
-## **📈 P11 Job Shop Scheduling Benchmark Results**
+## **📈 P11 Job Shop Scheduling Benchmark Dashboard**
+*Note: Welcome to pull requests and add your method beside.*
 
 ### **DMU Dataset Performance Comparison**
 
-| Dataset | Size | Random | LPT | SPT | STPT | MPSR | DRL-Liu | GP | GEP | SeEvo(GLM3) | SeEvo(GPT3.5) | UB | ALAS-dynamic | ALAS-static |
+| Dataset | Size | Random | LPT | SPT | STPT | MPSR | DRL-Liu | GP | GEP | SeEvo(GLM3) | SeEvo(GPT3.5) | UB | ALAS-dynamic(ours) | ALAS-static(ours) |
 |---------|------|--------|-----|-----|------|------|---------|----|-----|-------------|---------------|----|-------------|-------------|
 | DMU03 | 20×15 | 3827 | 4592 | 3630 | 4232 | 3435 | 3303 | 3540 | 3651 | 3462 | 3238 | **2731** | 3356 | 3462 |
 | DMU04 | 20×15 | 3889 | 4047 | 3541 | 4642 | 3355 | 3321 | 3406 | 3499 | 3235 | 3212 | **2669** | 3352 | 3235 |
@@ -169,7 +170,7 @@ Evaluate multi-agent planning performance across frameworks:
 
 ### **TA Dataset Performance Comparison**
 
-| Dataset | Size | LSO | SPT/TWKR | DRL-Chen | DRL-Zhang | DRL-Liu | GP | GEP | SeEvo(GLM3) | SeEvo(GPT3.5) | UB | ALAS-Dynamic | ALAS-Static |
+| Dataset | Size | LSO | SPT/TWKR | DRL-Chen | DRL-Zhang | DRL-Liu | GP | GEP | SeEvo(GLM3) | SeEvo(GPT3.5) | UB | ALAS-Dynamic(ours) | ALAS-Static(ours) |
 |---------|------|-----|----------|----------|-----------|---------|----|-----|-------------|---------------|----|-------------|-------------|
 | TA01 | 15×15 | 1957 | 1664 | 1711 | 1433 | 1492 | 1547 | 1547 | 1427 | 1427 | **1231** | **1243** | 1231 |
 | TA02 | 15×15 | 1759 | 1538 | 1639 | 1544 | 1425 | 1565 | 1486 | 1465 | 1437 | **1244** | **1252** | 1244 |
@@ -183,7 +184,7 @@ Evaluate multi-agent planning performance across frameworks:
 
 *Note: ALAS-dynamic performs better on TA datasets with only 0.86% gap to upper bound (UB).*
 
-### **Additional Benchmark Instances (ABZ, SWV, YN)**
+### **Additional Benchmark Instances (ABZ, SWV, YN) (ours)**
 
 | Dataset | Size | UB | Static Makespan | Valid Static | Dynamic Min | Dynamic Max | Static Valid Rate | Dynamic Valid Rate | Static Gap (%) | Dynamic Gap (%) |
 |---------|------|----|----------------|--------------|-------------|-------------|-------------------|-------------------|----------------|-----------------|
@@ -215,9 +216,9 @@ Evaluate multi-agent planning performance across frameworks:
 ### **Key Performance Insights**
 
 - **ALAS-Static** excels on **DMU datasets** with **19.09% gap** to upper bound
-- **ALAS-Dynamic** dominates **TA datasets** with only **0.86% gap** to upper bound  
+- **ALAS-Dynamic** dominates **TA datasets** with only **0.86% gap** to upper bound
+- **ALAS-Static** shows **95.5% validity rate** on additional benchmarks 
 - **ALAS-Dynamic** achieves **100% validity rate** across all benchmark instances
-- **ALAS-Static** shows **95.5% validity rate** on additional benchmarks
 - **Overall performance:** Both methods significantly outperform traditional heuristics (Random, LPT, SPT) and machine learning approaches (DRL, GP, GEP)
 
 ---
