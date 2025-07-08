@@ -3,7 +3,7 @@
 <p align="center">
   ⬇️ <a href="https://github.com/genglongling/REALM-Bench?tab=readme-ov-file">Github</a>  
   📃 <a href="https://arxiv.org/abs/2502.18836">Paper</a>  
-  🌐 <a href="https://example.com/project](https://github.com/genglongling/M-APPLE-OS">Dataset</a>
+  🌐 <a href="https://github.com/genglongling/M-APPLE-OS">Dataset</a>
 </p>
 
 This repository provides a comprehensive benchmark for evaluating multi-agent planning systems across **4 agent frameworks** and **11 real-world planning scenarios**. It implements **6 standard evaluation metrics** for assessing planning quality, optimality, coordination, constraint satisfaction, resource usage, and adaptation to disruptions.  
