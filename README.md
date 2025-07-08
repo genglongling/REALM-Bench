@@ -225,7 +225,9 @@ Evaluate multi-agent planning performance across frameworks:
 
 ## **📊 Problem Datasets & Public Data Sources**
 
-This benchmark includes 11 real-world planning problems. Below is a comprehensive summary of available public datasets for each problem type:
+This benchmark includes 11 real-world planning problems. 
+*Note: We will benchmark p1-p10 in later release.*
+Below is a comprehensive summary of available public datasets for each problem type:
 
 | Problem | Name | Category | Public Datasets | Dataset Links | Data Type | Size |
 |---------|------|----------|-----------------|---------------|-----------|------|
