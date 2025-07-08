@@ -1,0 +1,101 @@
+[
+  {
+    "task_id": "P11",
+    "framework": "crewai",
+    "execution_time": 0.00022117296854654947,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P1",
+    "framework": "crewai",
+    "execution_time": 1.6689300537109375e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P2",
+    "framework": "crewai",
+    "execution_time": 1.8278757731119792e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P3",
+    "framework": "crewai",
+    "execution_time": 1.6689300537109375e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P4",
+    "framework": "crewai",
+    "execution_time": 0.00022339820861816406,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P5",
+    "framework": "crewai",
+    "execution_time": 1.2715657552083333e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P6",
+    "framework": "crewai",
+    "execution_time": 1.986821492513021e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P7",
+    "framework": "crewai",
+    "execution_time": 1.5894571940104167e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P8",
+    "framework": "crewai",
+    "execution_time": 1.5894571940104167e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P9",
+    "framework": "crewai",
+    "execution_time": 0.00025272369384765625,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P10",
+    "framework": "crewai",
+    "execution_time": 1.5894571940104167e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  }
+]

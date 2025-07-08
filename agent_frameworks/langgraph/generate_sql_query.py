@@ -1,11 +1,10 @@
-import os
-import sys
+import sys, os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(1, os.path.join(sys.path[0], ".."))
 
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_core.tools import tool
 from langchain_openai import ChatOpenAI
-
-sys.path.insert(1, os.path.join(sys.path[0], ".."))
 
 from db.database import get_schema, get_table, run_query
 from prompt_templates.sql_generator_template import SYSTEM_PROMPT

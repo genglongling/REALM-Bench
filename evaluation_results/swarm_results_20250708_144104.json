@@ -1,0 +1,101 @@
+[
+  {
+    "task_id": "P11",
+    "framework": "swarm",
+    "execution_time": 3.0994415283203125e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P1",
+    "framework": "swarm",
+    "execution_time": 1.2715657552083333e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P2",
+    "framework": "swarm",
+    "execution_time": 1.6689300537109375e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P3",
+    "framework": "swarm",
+    "execution_time": 0.00023738543192545572,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P4",
+    "framework": "swarm",
+    "execution_time": 1.5894571940104167e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P5",
+    "framework": "swarm",
+    "execution_time": 1.986821492513021e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P6",
+    "framework": "swarm",
+    "execution_time": 1.6689300537109375e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P7",
+    "framework": "swarm",
+    "execution_time": 0.00021068255106608072,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P8",
+    "framework": "swarm",
+    "execution_time": 1.6689300537109375e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P9",
+    "framework": "swarm",
+    "execution_time": 1.9073486328125e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P10",
+    "framework": "swarm",
+    "execution_time": 1.5099843343098958e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  }
+]

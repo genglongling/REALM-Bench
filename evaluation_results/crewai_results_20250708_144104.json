@@ -1,0 +1,101 @@
+[
+  {
+    "task_id": "P11",
+    "framework": "crewai",
+    "execution_time": 2.940495808919271e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P1",
+    "framework": "crewai",
+    "execution_time": 5.8015187581380206e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P2",
+    "framework": "crewai",
+    "execution_time": 2.0662943522135415e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P3",
+    "framework": "crewai",
+    "execution_time": 2.1457672119140625e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P4",
+    "framework": "crewai",
+    "execution_time": 2.0662943522135415e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P5",
+    "framework": "crewai",
+    "execution_time": 0.00020543734232584635,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P6",
+    "framework": "crewai",
+    "execution_time": 2.304712931315104e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P7",
+    "framework": "crewai",
+    "execution_time": 1.986821492513021e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P8",
+    "framework": "crewai",
+    "execution_time": 1.5894571940104167e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P9",
+    "framework": "crewai",
+    "execution_time": 1.430511474609375e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P10",
+    "framework": "crewai",
+    "execution_time": 0.00030732154846191406,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  }
+]

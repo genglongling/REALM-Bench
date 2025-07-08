@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-07-08 14:41:04",
+  "config": {
+    "frameworks": [
+      "langgraph",
+      "autogen",
+      "crewai",
+      "swarm"
+    ],
+    "tasks": [
+      "P11",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10"
+    ],
+    "num_runs": 3
+  },
+  "results": {
+    "langgraph": {
+      "total_tasks": 11,
+      "average_execution_time": 6.630203940651633e-05,
+      "average_goal_satisfaction": 0.0,
+      "average_constraint_satisfaction": 0.0,
+      "average_makespan": 0.0
+    },
+    "autogen": {
+      "total_tasks": 11,
+      "average_execution_time": 9.955059398304334e-05,
+      "average_goal_satisfaction": 0.0,
+      "average_constraint_satisfaction": 0.0,
+      "average_makespan": 0.0
+    },
+    "crewai": {
+      "total_tasks": 11,
+      "average_execution_time": 4.8644614942146064e-05,
+      "average_goal_satisfaction": 0.0,
+      "average_constraint_satisfaction": 0.0,
+      "average_makespan": 0.0
+    },
+    "swarm": {
+      "total_tasks": 11,
+      "average_execution_time": 4.2221762917258517e-05,
+      "average_goal_satisfaction": 0.0,
+      "average_constraint_satisfaction": 0.0,
+      "average_makespan": 0.0
+    }
+  }
+}

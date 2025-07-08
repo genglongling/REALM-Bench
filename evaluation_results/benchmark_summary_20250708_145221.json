@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-07-08 14:52:21",
+  "config": {
+    "frameworks": [
+      "langgraph"
+    ],
+    "tasks": [
+      "P11"
+    ],
+    "num_runs": 3
+  },
+  "results": {
+    "langgraph": {
+      "total_tasks": 1,
+      "average_execution_time": 14.731903632481893,
+      "average_goal_satisfaction": 0.0,
+      "average_constraint_satisfaction": 0.0,
+      "average_makespan": 0.0
+    }
+  }
+}

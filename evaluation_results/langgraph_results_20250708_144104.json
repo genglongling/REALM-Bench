@@ -1,0 +1,101 @@
+[
+  {
+    "task_id": "P11",
+    "framework": "langgraph",
+    "execution_time": 3.0199686686197915e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P1",
+    "framework": "langgraph",
+    "execution_time": 6.103515625e-05,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P2",
+    "framework": "langgraph",
+    "execution_time": 1.8278757731119792e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P3",
+    "framework": "langgraph",
+    "execution_time": 1.5894571940104167e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P4",
+    "framework": "langgraph",
+    "execution_time": 1.6689300537109375e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P5",
+    "framework": "langgraph",
+    "execution_time": 0.0004280408223470052,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P6",
+    "framework": "langgraph",
+    "execution_time": 1.986821492513021e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P7",
+    "framework": "langgraph",
+    "execution_time": 1.2715657552083333e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P8",
+    "framework": "langgraph",
+    "execution_time": 2.0662943522135415e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P9",
+    "framework": "langgraph",
+    "execution_time": 0.0002254645029703776,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  },
+  {
+    "task_id": "P10",
+    "framework": "langgraph",
+    "execution_time": 1.3510386149088542e-06,
+    "achieved_goals": [],
+    "satisfied_constraints": [],
+    "resource_usage": {},
+    "metrics": {}
+  }
+]
