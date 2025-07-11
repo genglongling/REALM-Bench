@@ -6,7 +6,7 @@
   🌐 <a href="https://github.com/genglongling/M-APPLE-OS">Dataset</a>
 </p>
 
-This repository provides a comprehensive benchmark for evaluating multi-agent planning systems across *5 agent frameworks** and **11 real-world planning scenarios**. It implements **6 standard evaluation metrics** for assessing planning quality, optimality, coordination, constraint satisfaction, resource usage, and adaptation to disruptions.  
+This repository provides a comprehensive benchmark for evaluating multi-agent planning systems across **5 agent frameworks** and **11 real-world planning scenarios**. It implements **6 standard evaluation metrics** for assessing planning quality, optimality, coordination, constraint satisfaction, resource usage, and adaptation to disruptions.  
   
 1. **11 Real-World Planning Scenarios** covering diverse domains:
    - **P11**: Job Shop Scheduling (JSSP) - Combinatorial optimization
