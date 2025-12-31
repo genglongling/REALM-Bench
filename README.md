@@ -3,10 +3,10 @@
 <p align="center">
   ⬇️ <a href="https://github.com/genglongling/REALM-Bench?tab=readme-ov-file">Github</a>  
   📃 <a href="https://arxiv.org/abs/2502.18836">Paper</a>  
-  🌐 <a href="https://example.com/project">Project Page</a>
+  🌐 <a href="https://github.com/genglongling/M-APPLE-OS">Dataset</a>
 </p>
 
-This repository provides a comprehensive benchmark for evaluating multi-agent planning systems across **4 agent frameworks** and **11 real-world planning scenarios**. It implements **6 standard evaluation metrics** for assessing planning quality, optimality, coordination, constraint satisfaction, resource usage, and adaptation to disruptions.  
+This repository provides a comprehensive benchmark for evaluating multi-agent planning systems across **5 agent frameworks** and **11 real-world planning scenarios**. It implements **6 standard evaluation metrics** for assessing planning quality, optimality, coordination, constraint satisfaction, resource usage, and adaptation to disruptions.  
   
 1. **11 Real-World Planning Scenarios** covering diverse domains:
    - **P11**: Job Shop Scheduling (JSSP) - Combinatorial optimization
@@ -25,11 +25,12 @@ This repository provides a comprehensive benchmark for evaluating multi-agent pl
    - **Resource Usage Rate** - Memory, time, and token utilization
    - **Adaptation to Disruption** - Replanning success rates
 
-3. **4 Multi-Agent Frameworks** with standardized integration:
+3. **5 Multi-Agent Frameworks** with standardized integration:
    - **LangGraph** - State machine-based orchestration
    - **AutoGen** - Conversational AI framework
    - **CrewAI** - Multi-agent collaboration
    - **OpenAI Swarm Agent** - Swarm-based coordination
+   - **ALAS (ours)** - A Stateful Multi-LLM Agent Framework
 
 4. **Comprehensive Evaluation Framework** with:
    - Automated benchmarking across frameworks
@@ -145,7 +146,7 @@ Evaluate multi-agent planning performance across frameworks:
 
 ### **DMU Dataset Performance Comparison**
 
-| Dataset | Size | Random | LPT | SPT | STPT | MPSR | DRL-Liu | GP | GEP | SeEvo(GLM3) | SeEvo(GPT3.5) | UB | ALAS-dynamic(ours) | ALAS-static(ours) |
+| Dataset | Size | Random | LPT | SPT | STPT | MPSR | DRL-Liu | GP | GEP | SeEvo(GLM3) | SeEvo(GPT3.5) | UB | ALAS-dynamic (ours, on Langraph) | ALAS-static (ours, on Langraph) |
 |---------|------|--------|-----|-----|------|------|---------|----|-----|-------------|---------------|----|-------------|-------------|
 | DMU03 | 20×15 | 3827 | 4592 | 3630 | 4232 | 3435 | 3303 | 3540 | 3651 | 3462 | 3238 | **2731** | 3356 | 3462 |
 | DMU04 | 20×15 | 3889 | 4047 | 3541 | 4642 | 3355 | 3321 | 3406 | 3499 | 3235 | 3212 | **2669** | 3352 | 3235 |
@@ -170,7 +171,7 @@ Evaluate multi-agent planning performance across frameworks:
 
 ### **TA Dataset Performance Comparison**
 
-| Dataset | Size | LSO | SPT/TWKR | DRL-Chen | DRL-Zhang | DRL-Liu | GP | GEP | SeEvo(GLM3) | SeEvo(GPT3.5) | UB | ALAS-Dynamic(ours) | ALAS-Static(ours) |
+| Dataset | Size | LSO | SPT/TWKR | DRL-Chen | DRL-Zhang | DRL-Liu | GP | GEP | SeEvo(GLM3) | SeEvo(GPT3.5) | UB | ALAS-Dynamic (ours, on Langraph) | ALAS-Static on Langraph (ours, on Langraph) |
 |---------|------|-----|----------|----------|-----------|---------|----|-----|-------------|---------------|----|-------------|-------------|
 | TA01 | 15×15 | 1957 | 1664 | 1711 | 1433 | 1492 | 1547 | 1547 | 1427 | 1427 | **1231** | **1243** | 1231 |
 | TA02 | 15×15 | 1759 | 1538 | 1639 | 1544 | 1425 | 1565 | 1486 | 1465 | 1437 | **1244** | **1252** | 1244 |
@@ -184,7 +185,7 @@ Evaluate multi-agent planning performance across frameworks:
 
 *Note: ALAS-dynamic performs better on TA datasets with only 0.86% gap to upper bound (UB).*
 
-### **Additional Benchmark Instances (ABZ, SWV, YN) (ours)**
+### **Additional Benchmark Instances (ABZ, SWV, YN) (ours, on Langraph)**
 
 | Dataset | Size | UB | Static Makespan | Valid Static | Dynamic Min | Dynamic Max | Static Valid Rate | Dynamic Valid Rate | Static Gap (%) | Dynamic Gap (%) |
 |---------|------|----|----------------|--------------|-------------|-------------|-------------------|-------------------|----------------|-----------------|
@@ -231,7 +232,7 @@ Below is a comprehensive summary of available public datasets for each problem t
 
 | Problem | Name | Category | Public Datasets | Dataset Links | Data Type | Size |
 |---------|------|----------|-----------------|---------------|-----------|------|
-| **P11** | Job Shop Scheduling (JSSP) | Scheduling | • OR-Library JSSP<br>• Beasley JSSP<br>• Taillard JSSP | • [OR-Library](http://people.brunel.ac.uk/~mastjjb/jeb/orlib/jsspinfo.html)<br>• [Beasley JSSP](https://www.researchgate.net/publication/220463473_OR-Library_distributing_test_problems_by_electronic_mail)<br>• [Taillard JSSP](http://mistic.heig-vd.ch/taillard/problemes.dir/ordonnancement.dir/ordonnancement.html) | Benchmark instances | 82 instances |
+| **P11** | Job Shop Scheduling (JSSP) | Scheduling | • OR-Library JSSP<br>• Beasley JSSP<br>• Taillard JSSP | • [OR-Library](http://people.brunel.ac.uk/~mastjjb/jeb/orlib/jsspinfo.html)<br>• [Beasley JSSP](https://www.researchgate.net/publication/220463473_OR-Library_distributing_test_problems_by_electronic_mail)<br>• [Taillard JSSP](http://mistic.heig-vd.ch/taillard/problemes.dir/ordonnancement.dir/ordonnancement.html) | Benchmark instances | 182 instances |
 | **P1** | Single-Agent Campus Tour | Routing | • TSPLIB<br>• Custom campus layouts | • [TSPLIB](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)<br>• [VRP datasets](http://vrp.galgos.inf.puc-rio.br/index.php/en/) | TSP/VRP instances | 100+ instances |
 | **P2** | Multi-Group Campus Tours | Scheduling | • VRP with Time Windows<br>• Solomon datasets | • [Solomon VRP](http://web.cba.neu.edu/~msolomon/problems.htm)<br>• [Gehring & Homberger](http://www.bernabe.dorronsoro.es/vrp/) | VRP-TW instances | 56 instances |
 | **P3** | Urban Ride-Sharing (URS) | Routing | • NYC Taxi Trip Data<br>• Chicago Taxi Data<br>• Uber Movement Data | • [NYC Taxi Data](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)<br>• [Chicago Taxi Data](https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew)<br>• [Uber Movement](https://movement.uber.com/) | Real trip data | 100M+ trips |
