@@ -1,0 +1,31 @@
+{
+  "instance_id": "abz09_disrupted",
+  "base_instance": {
+    "source_file": "J1/abzswvyn/abz09.txt",
+    "jobs": [],
+    "machines": [],
+    "processing_times": [],
+    "raw_content": "20 15\n  6 14  5 21  8 13  4 11  1 11 14 35 13 20 11 17 10 18 12 11  2 23  3 13  0 15  7 11  9 35\n  1 35  5 31  0 13  3 26  6 14  9 17  7 38 12 20 10 19 13 12  8 16  4 34 11 15 14 12  2 14\n  0 30  4 35  2 40 10 35  6 30 14 23  8 29 13 37  7 38  3 40  9 26 12 11  1 40 11 36  5 17\n  7 40  5 18  4 12  8 23  0 23  9 14 13 16 12 14 10 23  3 12  6 16 14 32  1 40 11 25  2 29\n  2 35  3 15 12 31 11 28  6 32  4 30 10 27  7 29  0 38 13 11  1 23 14 17  5 27  9 37  8 29\n  5 33  3 33  6 19 12 40 10 19  0 33 13 26  2 31 11 28  7 36  4 38  1 21 14 25  9 40  8 35\n 13 25  0 32 11 33 12 18  4 32  6 28  5 15  3 35  9 14  2 34  7 23 10 32  1 17 14 26  8 19\n  2 16 12 33  9 34 11 30 13 40  8 12 14 26  5 26  6 15  3 21  1 40  4 32  0 14  7 30 10 35\n  2 17 10 16 14 20  6 24  8 26  3 36 12 22  0 14 13 11  9 20  7 23  1 29 11 23  4 15  5 40\n"
+  },
+  "disruptions": [
+    {
+      "type": "weather_effect",
+      "affected_operations": [
+        13,
+        12,
+        19,
+        5,
+        7,
+        9,
+        8,
+        17
+      ],
+      "start_time": 36,
+      "duration": 44,
+      "severity": "moderate",
+      "impact": "transportation_delays"
+    }
+  ],
+  "description": "JSSP Basic with Disruptions (J2)",
+  "objective": "minimize_makespan_with_adaptation"
+}

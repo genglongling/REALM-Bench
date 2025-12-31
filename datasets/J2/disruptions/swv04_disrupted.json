@@ -1,0 +1,21 @@
+{
+  "instance_id": "swv04_disrupted",
+  "base_instance": {
+    "source_file": "J1/abzswvyn/swv04.txt",
+    "jobs": [],
+    "machines": [],
+    "processing_times": [],
+    "raw_content": "20 10\n  2  16  0  59  4  10  3  95  1  64  8  92  9  56  7   3  5  73  6  17\n  1   5  4  64  3  30  2  14  0  96  9  11  8  73  7  35  6  93  5  12\n  3  35  4  75  0  54  1  30  2  83  9  20  8  29  7  38  6  90  5  39\n  4  29  3  21  0  52  2  93  1  20  5   5  7  11  8  53  9  56  6  98\n  0  17  3  16  4  41  1  78  2 100  5  55  8  27  6   2  7  87  9  55\n  3  97  1  32  4  84  2  71  0  38  9  64  7  16  5   5  6  41  8  41\n  3  41  1  57  4  37  0  64  2  92  6  19  9  47  7  94  8  79  5  21\n  0  23  3  67  1  39  4  98  2  63  8  83  5  45  6  89  9  81  7  44\n  1  88  0  59  3  39  2  63  4  91  8  36  5  44  6  45  9  43  7  12\n"
+  },
+  "disruptions": [
+    {
+      "type": "emergency_shutdown",
+      "facility": "main_facility",
+      "start_time": 44,
+      "duration": 28,
+      "impact": "complete_shutdown"
+    }
+  ],
+  "description": "JSSP Basic with Disruptions (J2)",
+  "objective": "minimize_makespan_with_adaptation"
+}

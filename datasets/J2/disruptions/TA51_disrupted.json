@@ -1,0 +1,21 @@
+{
+  "instance_id": "TA51_disrupted",
+  "base_instance": {
+    "source_file": "J1/TA/TA51.txt",
+    "jobs": [],
+    "machines": [],
+    "processing_times": [],
+    "raw_content": "Nb of jobs, Nb of Machines, Time seed, Machine seed, Upper bound, Lower bound\n        50        15      17271     718939      2760      2760\nTimes\n 14 79  6 35 42 64 51 67 13  9 46 84 60 10 34\n 45 42 95 97 43 40 25 22 57 15 59 33 83 72 27\n 15 92 82 76 87 93 30 96 21 76 61 62  7 21 38\n 36 96 77 97 26 13 90 60 91 86 74 64 42 93  1\n 27 61 87  2 30 47 58  5 83 72 71 52 48 54 27\n 44 66  1 12 21 24 19  6 31 50 84 34 59 64 53\n 51 48 39 75 13 94  5 73 38 28 77 40 45 89 89\n"
+  },
+  "disruptions": [
+    {
+      "type": "emergency_shutdown",
+      "facility": "main_facility",
+      "start_time": 108,
+      "duration": 37,
+      "impact": "complete_shutdown"
+    }
+  ],
+  "description": "JSSP Basic with Disruptions (J2)",
+  "objective": "minimize_makespan_with_adaptation"
+}

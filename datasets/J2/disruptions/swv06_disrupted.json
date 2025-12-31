@@ -1,0 +1,27 @@
+{
+  "instance_id": "swv06_disrupted",
+  "base_instance": {
+    "source_file": "J1/abzswvyn/swv06.txt",
+    "jobs": [],
+    "machines": [],
+    "processing_times": [],
+    "raw_content": "20 15\n  1  16  6  58  2  22  4  24  5  53  3   9  0  57 10  63  8  92 12  43  7  41 13  26 14  20  9  44 11  93\n  2  89  1  94  0  86  3  13  6  54  4  41  5  55  7  98 13  38 14  80  9   1 11 100 12  90 10  63  8  14\n  1  26  6  96  3  32  4  75  5   9  0  57  2  39 12  54 14  28 10   8 11  30 13  57  9  75  7   9  8  41\n  3  37  2  36  5  63  0  24  6  71  1  97  4  74 14  19 12  45  8  24 11  71 13  53 10  61  9   6  7  32\n  3  57  0  55  1  21  5  84  2  23  6  79  4  90 11   8 14  59 10  99  9  41 12  68  8  14 13   4  7  55\n  4  10  2  81  1  13  3  78  0  78  5  10  6  48  9  37 11  21  7  88 12  75 14  11 13  55 10  93  8  51\n  6 100  2  52  3  54  1  37  5  26  4  74  0  87  8  13 12  88 10  94 14  73  7  55 11  68  9  50 13  88\n  4  47  5  70  6   7  2  72  0  62  3  30  1  95 10  18  9  65  7  69 13  89  8  89 14  64 12  81 11  25\n  6   1  1  10  0  72  3  59  4  92  5  53  2  89 14  52  7  48  8   8 13  69 10  49  9  26 12  76 11  97\n"
+  },
+  "disruptions": [
+    {
+      "type": "power_outage",
+      "affected_machines": [
+        8,
+        7,
+        5,
+        4,
+        10
+      ],
+      "start_time": 131,
+      "duration": 54,
+      "impact": "multiple_machines_unavailable"
+    }
+  ],
+  "description": "JSSP Basic with Disruptions (J2)",
+  "objective": "minimize_makespan_with_adaptation"
+}

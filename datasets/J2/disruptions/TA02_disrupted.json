@@ -1,0 +1,22 @@
+{
+  "instance_id": "TA02_disrupted",
+  "base_instance": {
+    "source_file": "J1/TA/TA02.txt",
+    "jobs": [],
+    "machines": [],
+    "processing_times": [],
+    "raw_content": "Nb of jobs, Nb of Machines, Time seed, Machine seed, Upper bound, Lower bound\n        15        15 1314640371  386720536      1244       953\nTimes\n 86 60 10 59 65 94 71 25 98 49 43  8 90 21 73\n 68 28 38 36 93 35 37 28 62 86 65 11 20 82 23\n 33 67 96 91 83 81 60 88 20 62 22 79 38 40 82\n 13 14 73 88 24 16 78 70 53 68 73 90 58  7  4\n 93 52 63 13 19 41 71 59 19 60 85 99 73 95 19\n 62 60 93 16 10 72 88 69 58 41 46 63 76 83 62\n 50 68 90 34 44  5  8 25 70 53 78 92 62 85 70\n"
+  },
+  "disruptions": [
+    {
+      "type": "supply_delay",
+      "resource": "material_A",
+      "start_time": 22,
+      "duration": 21,
+      "shortage_percentage": 0.4643871385328978,
+      "impact": "resource_shortage"
+    }
+  ],
+  "description": "JSSP Basic with Disruptions (J2)",
+  "objective": "minimize_makespan_with_adaptation"
+}
