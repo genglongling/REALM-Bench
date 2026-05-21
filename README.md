@@ -3,7 +3,8 @@
 <p align="center">
   ⬇️ <a href="https://github.com/genglongling/REALM-Bench?tab=readme-ov-file">Github</a>  
   📃 <a href="https://arxiv.org/abs/2502.18836">Paper</a>  
-  🌐 <a href="https://github.com/genglongling/M-APPLE-OS">Dataset</a>
+  🌐 <a href="https://github.com/genglongling/M-APPLE-OS">Code</a>
+  🤗 <a href="https://huggingface.co/datasets/GloriaGeng/REALM-Bench">Dataset (Hugging Face)</a>
 </p>
 
 This repository provides a comprehensive benchmark for evaluating multi-agent planning systems across **5 agent frameworks** and **11 real-world planning scenarios**. It implements **6 standard evaluation metrics** for assessing planning quality, optimality, coordination, constraint satisfaction, resource usage, and adaptation to disruptions.  
@@ -227,7 +228,7 @@ Evaluate multi-agent planning performance across frameworks:
 ## **📊 Problem Datasets & Public Data Sources**
 
 This benchmark includes 11 real-world planning problems. 
-*Note: We will benchmark p1-p10 in later release.*
+*Note: p1-p10 and J1-J4 is in dataset folder.*
 Below is a comprehensive summary of available public datasets for each problem type:
 
 | Problem | Name | Category | Public Datasets | Dataset Links | Data Type | Size |
@@ -272,14 +273,32 @@ For comprehensive benchmarking, we recommend a **hybrid approach**:
 
 ---
 
-## **📜 Citation**  
+## **📜 Citation**
 
-If you find this repository helpful, please cite the following paper:  
+If you use REALM-Bench, please cite:
 
+```bibtex
+@misc{geng2025realmbenchbenchmarkevaluatingmultiagent,
+  title={REALM-Bench: A Benchmark for Evaluating Multi-Agent Systems on Real-world, Dynamic Planning and Scheduling Tasks},
+  author={Longling Geng and Edward Y. Chang},
+  year={2025},
+  eprint={2502.18836},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2502.18836},
+}
 ```
-REALM-Bench: A Real-World Planning Benchmark for LLMs and Multi-Agent Systems  
-Anonymous Author(s)  
-```
+
+---
+
+## **License**
+
+| Component | License |
+|-----------|---------|
+| **Code** (this repository, evaluation framework, agents) | [MIT](https://opensource.org/licenses/MIT) |
+| **Dataset** ([JSSP on Hugging Face](https://huggingface.co/datasets/GloriaGeng/REALM-Bench)) | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
+
+Benchmark instance data may additionally follow the licensing of original sources (OR-Library, Taillard, etc.) where applicable.
 
 ---
 
