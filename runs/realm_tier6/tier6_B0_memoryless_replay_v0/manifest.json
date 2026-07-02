@@ -1,0 +1,17 @@
+{
+  "baseline_id": "B0_memoryless_replay",
+  "claim_status": "baseline_reference_only",
+  "dictionary_version": "tier6-signature-dictionary-v0",
+  "families": [
+    "jobshop_breakdown",
+    "ride_or_routing_disruption",
+    "wedding_recovery"
+  ],
+  "generator_version": "tier6-generator-v0",
+  "num_episodes": 150,
+  "num_events": 150,
+  "num_sequences": 15,
+  "phase": "baseline_reference",
+  "run_id": "tier6_B0_memoryless_replay_v0",
+  "scorer_version": "tier6-scorer-v0"
+}

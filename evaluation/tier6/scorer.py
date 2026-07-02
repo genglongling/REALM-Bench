@@ -23,15 +23,28 @@ SAFETY_COUNTERS = (
 
 
 def _has_failure_occurrence(event: Dict[str, Any]) -> bool:
+    """Return true only when the trace records an actual failure occurrence.
+
+    A clean observation may still carry a failure_signature to indicate which
+    prior signature is being monitored. It should not count as a recurrence
+    unless the event records a violation, nonzero delta, or rejection.
+    """
+
     signature = event.get("failure_signature", "")
     if not signature:
         return False
+
     if event.get("constraint_violations"):
         return True
+
     delta = event.get("delta")
     if delta not in (None, "", 0, 0.0, "0"):
         return True
-    return event.get("event") in {"reject", "observe", "repair"}
+
+    if event.get("event") == "reject":
+        return True
+
+    return False
 
 
 def _is_correction_event(event: Dict[str, Any]) -> bool:
