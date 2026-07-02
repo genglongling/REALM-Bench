@@ -62,3 +62,5 @@ def test_bracket_fields_exist():
     assert "bracket" in result
     assert "B0_memoryless_replay" in result["bracket"]
     assert "Bstar_oracle_memory" in result["bracket"]
+    assert "position_repeated_failure_rate" in result["bracket"]
+    assert "position_horizon_reward" in result["bracket"]

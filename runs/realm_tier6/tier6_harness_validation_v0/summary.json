@@ -1,9 +1,16 @@
 {
   "bracket": {
-    "B0_memoryless_replay": null,
-    "Bstar_oracle_memory": null,
-    "position_horizon_reward": null,
-    "position_repeated_failure_rate": null
+    "B0_memoryless_replay": {
+      "horizon_reward": 0.0,
+      "repeated_failure_rate": 1.0
+    },
+    "Bstar_oracle_memory": {
+      "horizon_reward": 1.0,
+      "repeated_failure_rate": 0.0
+    },
+    "baseline_version": "tier6-baselines-v0",
+    "position_horizon_reward": 0.16666666666666666,
+    "position_repeated_failure_rate": 0.0
   },
   "cost": {
     "tokens_in": 0,

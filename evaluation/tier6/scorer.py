@@ -11,6 +11,7 @@ from collections import defaultdict
 from statistics import mean
 from typing import Any, Dict, Iterable, List, Tuple
 
+from evaluation.tier6.baselines import compute_bracket_positions
 from evaluation.tier6.schemas import validate_trace
 
 
@@ -90,6 +91,13 @@ def score_trace(events: Iterable[Dict[str, Any]]) -> Dict[str, Any]:
         "wallclock_ms": sum(event["cost"]["wallclock_ms"] for event in records),
     }
 
+    horizon_reward_mean = mean(horizon_values) if horizon_values else None
+    grounded_admission_rate = (
+        sum(1 for value in grounded_values if value) / len(grounded_values)
+        if grounded_values
+        else None
+    )
+
     return {
         "num_events": len(records),
         "num_control_events": len(control_records),
@@ -101,19 +109,13 @@ def score_trace(events: Iterable[Dict[str, Any]]) -> Dict[str, Any]:
         "time_to_correction_mean_observed": mean(ttc_observed) if ttc_observed else None,
         "time_to_correction_observed_count": len(ttc_observed),
         "time_to_correction_censored_count": len(ttc_censored),
-        "horizon_reward_mean": mean(horizon_values) if horizon_values else None,
-        "grounded_admission_rate": (
-            sum(1 for value in grounded_values if value) / len(grounded_values)
-            if grounded_values
-            else None
-        ),
+        "horizon_reward_mean": horizon_reward_mean,
+        "grounded_admission_rate": grounded_admission_rate,
         "cost": cost,
-        "bracket": {
-            "B0_memoryless_replay": None,
-            "Bstar_oracle_memory": None,
-            "position_repeated_failure_rate": None,
-            "position_horizon_reward": None,
-        },
+        "bracket": compute_bracket_positions(
+            repeated_failure_rate=repeated_failure_rate,
+            horizon_reward=horizon_reward_mean,
+        ),
     }
 
 
