@@ -15,6 +15,6 @@
   "public_seed_set": "tier6-public-seeds-v0",
   "run_id": "tier6_harness_validation_v0",
   "scorer_version": "tier6-scorer-v0",
-  "utc_end": "2026-07-02T17:01:01.655306Z",
-  "utc_start": "2026-07-02T17:01:01.655304Z"
+  "utc_end": "2026-07-02T00:00:00Z",
+  "utc_start": "2026-07-02T00:00:00Z"
 }

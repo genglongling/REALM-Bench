@@ -8,6 +8,7 @@ submission and not evidence for Quadrivium/Mnemosyne hypotheses.
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import sys
 from datetime import datetime, timezone
@@ -35,9 +36,12 @@ CANONICAL_SENTENCE = (
     "pilot and confirmatory runs follow under the registered protocol."
 )
 
+# Fixed timestamp keeps committed harness fixtures reproducible.
+FIXTURE_TIMESTAMP_UTC = "2026-07-02T00:00:00Z"
+
 
 def utc_now() -> str:
-    return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    return FIXTURE_TIMESTAMP_UTC
 
 
 def make_event(
@@ -259,6 +263,7 @@ def emit_fixture_run(output_dir: Path, run_id: str = "tier6_harness_validation_v
     write_json(output_dir / "manifest.json", manifest)
     write_jsonl(output_dir / "events.jsonl", events)
     write_json(output_dir / "summary.json", summary)
+    write_summary_csv(output_dir / "summary.csv", summary)
     write_report(output_dir / "report.md", manifest, summary)
 
     return {
@@ -277,6 +282,34 @@ def write_jsonl(path: Path, records: Iterable[Dict[str, Any]]) -> None:
     with path.open("w", encoding="utf-8") as handle:
         for record in records:
             handle.write(json.dumps(record, sort_keys=True) + "\n")
+
+
+def write_summary_csv(path: Path, summary: Dict[str, Any]) -> None:
+    rows = [
+        ("num_events", summary["num_events"]),
+        ("num_control_events", summary["num_control_events"]),
+        ("num_non_control_events", summary["num_non_control_events"]),
+        ("safety_passed", summary["safety_passed"]),
+        ("invalid_commit_count", summary["safety_counts"]["invalid_commit_count"]),
+        ("evidence_destroying_repair_count", summary["safety_counts"]["evidence_destroying_repair_count"]),
+        ("orphaned_dependent_count", summary["safety_counts"]["orphaned_dependent_count"]),
+        ("repeated_failure_rate", summary["repeated_failure_rate"]),
+        ("repeated_failure_rate_controls", summary["repeated_failure_rate_controls"]),
+        ("time_to_correction_observed_count", summary["time_to_correction_observed_count"]),
+        ("time_to_correction_censored_count", summary["time_to_correction_censored_count"]),
+        ("horizon_reward_mean", summary["horizon_reward_mean"]),
+        ("grounded_admission_rate", summary["grounded_admission_rate"]),
+        ("bracket_position_repeated_failure_rate", summary["bracket"]["position_repeated_failure_rate"]),
+        ("bracket_position_horizon_reward", summary["bracket"]["position_horizon_reward"]),
+        ("tokens_in", summary["cost"]["tokens_in"]),
+        ("tokens_out", summary["cost"]["tokens_out"]),
+        ("wallclock_ms", summary["cost"]["wallclock_ms"]),
+    ]
+
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle)
+        writer.writerow(["metric", "value"])
+        writer.writerows(rows)
 
 
 def write_report(path: Path, manifest: Dict[str, Any], summary: Dict[str, Any]) -> None:
