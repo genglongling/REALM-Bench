@@ -1,0 +1,29 @@
+{
+  "bracket": {
+    "B0_memoryless_replay": null,
+    "Bstar_oracle_memory": null,
+    "position_horizon_reward": null,
+    "position_repeated_failure_rate": null
+  },
+  "cost": {
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "wallclock_ms": 0
+  },
+  "grounded_admission_rate": null,
+  "horizon_reward_mean": 0.16666666666666666,
+  "num_control_events": 30,
+  "num_events": 90,
+  "num_non_control_events": 60,
+  "repeated_failure_rate": 1.0,
+  "repeated_failure_rate_controls": 0.0,
+  "safety_counts": {
+    "evidence_destroying_repair_count": 0,
+    "invalid_commit_count": 0,
+    "orphaned_dependent_count": 0
+  },
+  "safety_passed": true,
+  "time_to_correction_censored_count": 78,
+  "time_to_correction_mean_observed": 1,
+  "time_to_correction_observed_count": 12
+}

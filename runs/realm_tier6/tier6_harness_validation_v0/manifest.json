@@ -1,0 +1,20 @@
+{
+  "canonical_sentence": "This implements and validates the REALM-Bench Tier-6 causal-loop harness; pilot and confirmatory runs follow under the registered protocol.",
+  "claim_status": "not_chapter_result",
+  "dictionary_version": "tier6-signature-dictionary-v0",
+  "families": [
+    "jobshop_breakdown",
+    "ride_or_routing_disruption",
+    "wedding_recovery"
+  ],
+  "generator_version": "tier6-generator-v0",
+  "num_episodes": 150,
+  "num_events": 90,
+  "num_sequences": 15,
+  "phase": "deterministic_harness_validation",
+  "public_seed_set": "tier6-public-seeds-v0",
+  "run_id": "tier6_harness_validation_v0",
+  "scorer_version": "tier6-scorer-v0",
+  "utc_end": "2026-07-02T17:01:01.655306Z",
+  "utc_start": "2026-07-02T17:01:01.655304Z"
+}
