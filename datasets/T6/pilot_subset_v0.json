@@ -1,0 +1,26 @@
+{
+  "pilot_subset_version": "tier6-pilot-subset-v0",
+  "description": "Frozen public pilot subset for REALM-Bench Tier 6 harness validation and variance estimation.",
+  "purpose": [
+    "validate trace generation",
+    "validate scorer and censoring behavior",
+    "estimate variance before confirmatory seed-count selection"
+  ],
+  "not_for_confirmatory_claims": true,
+  "families": ["jobshop_breakdown"],
+  "sequences_per_family": 5,
+  "episodes_per_sequence": 10,
+  "public_sequence_seeds": [17, 23, 42, 101, 271],
+  "control_seed_policy": {
+    "type": "first_seed_per_family",
+    "control_seed": 17,
+    "control_sequences_per_family": 1
+  },
+  "required_outputs": [
+    "manifest.json",
+    "events.jsonl",
+    "summary.json",
+    "summary.csv",
+    "report.md"
+  ]
+}
