@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import importlib.util
 import json
+import sys
 from pathlib import Path
 from typing import Any, Dict, List
 
@@ -18,6 +19,7 @@ def _load_module(module_name: str, path: Path):
     if spec is None or spec.loader is None:
         raise ImportError(f"cannot import {module_name} from {path}")
     module = importlib.util.module_from_spec(spec)
+    sys.modules[spec.name] = module
     spec.loader.exec_module(module)
     return module
 
@@ -53,11 +55,7 @@ def generate_pilot_sequences(
     repo_root: str | Path = REPO_ROOT,
     pilot_path: str | Path | None = None,
 ) -> List[Dict[str, Any]]:
-    """Generate the frozen Tier-6 pilot subset.
-
-    This returns one base instance per listed family and the frozen public seed
-    list. The first seed per family is forced to be a control sequence.
-    """
+    """Generate the frozen Tier-6 pilot subset."""
 
     pilot = load_pilot_subset(pilot_path)
     family_dirs = {
@@ -94,13 +92,14 @@ def generate_pilot_sequences(
 
 def main() -> None:
     sequences = generate_pilot_sequences()
+    pilot = load_pilot_subset()
     print(json.dumps({
-        "pilot_subset_version": load_pilot_subset()["pilot_subset_version"],
+        "pilot_subset_version": pilot["pilot_subset_version"],
         "num_sequences": len(sequences),
         "num_episodes": sum(len(seq["episodes"]) for seq in sequences),
         "families": sorted({seq["base_instance"]["family"] for seq in sequences}),
         "control_sequences": sum(1 for seq in sequences if seq["is_control_sequence"]),
-        "not_for_confirmatory_claims": True,
+        "not_for_confirmatory_claims": True
     }, indent=2, sort_keys=True))
 
 
