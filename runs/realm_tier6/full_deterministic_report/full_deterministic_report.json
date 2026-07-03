@@ -1,0 +1,169 @@
+{
+  "schema": "realm_tier6_full_deterministic_report_v0",
+  "claim_boundary": "R90 scores the deterministic Tier-6 development set with B0 and B* reference baselines and reports the R88 Mnemosyne live-LLM pilot beside those anchors. This supports Chapter 6 pilot-plus-baseline evidence, not confirmatory-scale evidence.",
+  "development_set": {
+    "num_sequences": 15,
+    "num_episodes": 150,
+    "num_control_sequences": 3,
+    "num_non_control_sequences": 12,
+    "families": [
+      "jobshop_breakdown",
+      "ride_or_routing_disruption",
+      "wedding_recovery"
+    ],
+    "episodes_per_sequence": 10,
+    "sequence_ids": [
+      "T6-7e17ef0cc5f3",
+      "T6-76095aec5ba1",
+      "T6-821c1e5f73cf",
+      "T6-07dad0e3447d",
+      "T6-ffd2eb8a0e46",
+      "T6-1a141c511cbe",
+      "T6-c574beceb46d",
+      "T6-5f6fd46c8c30",
+      "T6-8484ea3f6fe9",
+      "T6-6c5ff202ed08",
+      "T6-79f81a4665a1",
+      "T6-6039d2a74221",
+      "T6-c825b8f8b14d",
+      "T6-d355c4f4b055",
+      "T6-07c2668a45d1"
+    ]
+  },
+  "source_paths": {
+    "generator": "/Users/edward.chang/REALM-Bench/datasets/T6/generator.py",
+    "r88_score_report": "runs/realm_tier6/mnemosyne_live_llm_official_score/mnemosyne_live_llm_score_report.json"
+  },
+  "baseline_scores": {
+    "B0_memoryless_replay": {
+      "num_events": 150,
+      "num_control_events": 30,
+      "num_non_control_events": 120,
+      "safety_passed": true,
+      "safety_counts": {
+        "invalid_commit_count": 0,
+        "evidence_destroying_repair_count": 0,
+        "orphaned_dependent_count": 0
+      },
+      "repeated_failure_rate": 1.0,
+      "repeated_failure_rate_controls": 0.0,
+      "time_to_correction_mean_observed": 1,
+      "time_to_correction_observed_count": 12,
+      "time_to_correction_censored_count": 138,
+      "horizon_reward_mean": 0.0,
+      "grounded_admission_rate": null,
+      "bracket": {
+        "baseline_version": "tier6-baselines-v0",
+        "B0_memoryless_replay": {
+          "repeated_failure_rate": 1.0,
+          "horizon_reward": 0.0
+        },
+        "Bstar_oracle_memory": {
+          "repeated_failure_rate": 0.0,
+          "horizon_reward": 1.0
+        },
+        "position_repeated_failure_rate": 0.0,
+        "position_horizon_reward": 0.0
+      }
+    },
+    "Bstar_oracle_memory": {
+      "num_events": 150,
+      "num_control_events": 30,
+      "num_non_control_events": 120,
+      "safety_passed": true,
+      "safety_counts": {
+        "invalid_commit_count": 0,
+        "evidence_destroying_repair_count": 0,
+        "orphaned_dependent_count": 0
+      },
+      "repeated_failure_rate": 0.0,
+      "repeated_failure_rate_controls": 0.0,
+      "time_to_correction_mean_observed": 1,
+      "time_to_correction_observed_count": 12,
+      "time_to_correction_censored_count": 138,
+      "horizon_reward_mean": 0.96,
+      "grounded_admission_rate": null,
+      "bracket": {
+        "baseline_version": "tier6-baselines-v0",
+        "B0_memoryless_replay": {
+          "repeated_failure_rate": 1.0,
+          "horizon_reward": 0.0
+        },
+        "Bstar_oracle_memory": {
+          "repeated_failure_rate": 0.0,
+          "horizon_reward": 1.0
+        },
+        "position_repeated_failure_rate": 1.0,
+        "position_horizon_reward": 0.96
+      }
+    }
+  },
+  "r88_live_llm_pilot_available": true,
+  "chapter6_table": [
+    {
+      "system_id": "B0_memoryless_replay",
+      "display_name": "B0 memoryless replay",
+      "evidence_type": "deterministic_reference_baseline",
+      "num_events": 150,
+      "safety_passed": true,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "repeated_failure_rate": 1.0,
+      "repeated_failure_rate_controls": 0.0,
+      "horizon_reward_mean": 0.0,
+      "grounded_admission_rate": null,
+      "rfr_bracket_position": 0.0,
+      "horizon_bracket_position": 0.0
+    },
+    {
+      "system_id": "Bstar_oracle_memory",
+      "display_name": "B* oracle memory",
+      "evidence_type": "deterministic_reference_baseline",
+      "num_events": 150,
+      "safety_passed": true,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "repeated_failure_rate": 0.0,
+      "repeated_failure_rate_controls": 0.0,
+      "horizon_reward_mean": 0.96,
+      "grounded_admission_rate": null,
+      "rfr_bracket_position": 1.0,
+      "horizon_bracket_position": 0.96
+    },
+    {
+      "system_id": "mnemosyne_live_llm_r88_pilot",
+      "display_name": "Mnemosyne live-LLM pilot",
+      "evidence_type": "manual_live_llm_pilot",
+      "num_events": 40,
+      "safety_passed": true,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "repeated_failure_rate": 0.0,
+      "repeated_failure_rate_controls": 0.0,
+      "horizon_reward_mean": 0.90125,
+      "grounded_admission_rate": 0.725,
+      "rfr_bracket_position": 1.0,
+      "horizon_bracket_position": 0.90125,
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "official_scorer_invoked": true,
+      "score_scope": "mnemosyne_live_llm_handoff_derived_events"
+    }
+  ],
+  "allowed_claims": [
+    "The Tier-6 deterministic development set can be scored end to end.",
+    "B0 and B* reference baselines bracket the repeated-failure and horizon-reward metrics.",
+    "The R88 Mnemosyne live-LLM pilot can be reported beside deterministic Tier-6 anchors.",
+    "The evidence supports Chapter 6 pilot-plus-baseline closure."
+  ],
+  "disallowed_claims": [
+    "confirmatory-scale benchmark evidence",
+    "API-automated live LLM evidence",
+    "production CTL-domain StateView realization",
+    "proof of AGI, wisdom, or autonomous scientific reasoning"
+  ]
+}
