@@ -1,0 +1,386 @@
+{
+  "schema": "realm_tier6_family_stratified_report_v0",
+  "claim_boundary": "R92 stratifies deterministic Tier-6 B0/B* baselines by family and places the R88 Mnemosyne live-LLM pilot as a family-assigned pilot row. This supports Chapter 6 family-stratified pilot-plus-baseline evidence, not confirmatory-scale evidence.",
+  "development_set_by_family": {
+    "jobshop_breakdown": {
+      "num_sequences": 5,
+      "num_control_sequences": 1,
+      "num_non_control_sequences": 4,
+      "num_episodes": 50,
+      "sequence_ids": [
+        "T6-7e17ef0cc5f3",
+        "T6-76095aec5ba1",
+        "T6-821c1e5f73cf",
+        "T6-07dad0e3447d",
+        "T6-ffd2eb8a0e46"
+      ]
+    },
+    "ride_or_routing_disruption": {
+      "num_sequences": 5,
+      "num_control_sequences": 1,
+      "num_non_control_sequences": 4,
+      "num_episodes": 50,
+      "sequence_ids": [
+        "T6-1a141c511cbe",
+        "T6-c574beceb46d",
+        "T6-5f6fd46c8c30",
+        "T6-8484ea3f6fe9",
+        "T6-6c5ff202ed08"
+      ]
+    },
+    "wedding_recovery": {
+      "num_sequences": 5,
+      "num_control_sequences": 1,
+      "num_non_control_sequences": 4,
+      "num_episodes": 50,
+      "sequence_ids": [
+        "T6-79f81a4665a1",
+        "T6-6039d2a74221",
+        "T6-c825b8f8b14d",
+        "T6-d355c4f4b055",
+        "T6-07c2668a45d1"
+      ]
+    }
+  },
+  "families": [
+    "jobshop_breakdown",
+    "ride_or_routing_disruption",
+    "wedding_recovery"
+  ],
+  "source_paths": {
+    "generator": "/Users/edward.chang/REALM-Bench/datasets/T6/generator.py",
+    "r88_score_report": "runs/realm_tier6/mnemosyne_live_llm_official_score/mnemosyne_live_llm_score_report.json"
+  },
+  "live_pilot_family": "jobshop_breakdown",
+  "r88_live_llm_pilot_available": true,
+  "baseline_scores_by_family": {
+    "B0_memoryless_replay": {
+      "jobshop_breakdown": {
+        "num_events": 50,
+        "num_control_events": 10,
+        "num_non_control_events": 40,
+        "safety_passed": true,
+        "safety_counts": {
+          "invalid_commit_count": 0,
+          "evidence_destroying_repair_count": 0,
+          "orphaned_dependent_count": 0
+        },
+        "repeated_failure_rate": 1.0,
+        "repeated_failure_rate_controls": 0.0,
+        "time_to_correction_mean_observed": 1,
+        "time_to_correction_observed_count": 4,
+        "time_to_correction_censored_count": 46,
+        "horizon_reward_mean": 0.0,
+        "grounded_admission_rate": null,
+        "bracket": {
+          "baseline_version": "tier6-baselines-v0",
+          "B0_memoryless_replay": {
+            "repeated_failure_rate": 1.0,
+            "horizon_reward": 0.0
+          },
+          "Bstar_oracle_memory": {
+            "repeated_failure_rate": 0.0,
+            "horizon_reward": 1.0
+          },
+          "position_repeated_failure_rate": 0.0,
+          "position_horizon_reward": 0.0
+        }
+      },
+      "ride_or_routing_disruption": {
+        "num_events": 50,
+        "num_control_events": 10,
+        "num_non_control_events": 40,
+        "safety_passed": true,
+        "safety_counts": {
+          "invalid_commit_count": 0,
+          "evidence_destroying_repair_count": 0,
+          "orphaned_dependent_count": 0
+        },
+        "repeated_failure_rate": 1.0,
+        "repeated_failure_rate_controls": 0.0,
+        "time_to_correction_mean_observed": 1,
+        "time_to_correction_observed_count": 4,
+        "time_to_correction_censored_count": 46,
+        "horizon_reward_mean": 0.0,
+        "grounded_admission_rate": null,
+        "bracket": {
+          "baseline_version": "tier6-baselines-v0",
+          "B0_memoryless_replay": {
+            "repeated_failure_rate": 1.0,
+            "horizon_reward": 0.0
+          },
+          "Bstar_oracle_memory": {
+            "repeated_failure_rate": 0.0,
+            "horizon_reward": 1.0
+          },
+          "position_repeated_failure_rate": 0.0,
+          "position_horizon_reward": 0.0
+        }
+      },
+      "wedding_recovery": {
+        "num_events": 50,
+        "num_control_events": 10,
+        "num_non_control_events": 40,
+        "safety_passed": true,
+        "safety_counts": {
+          "invalid_commit_count": 0,
+          "evidence_destroying_repair_count": 0,
+          "orphaned_dependent_count": 0
+        },
+        "repeated_failure_rate": 1.0,
+        "repeated_failure_rate_controls": 0.0,
+        "time_to_correction_mean_observed": 1,
+        "time_to_correction_observed_count": 4,
+        "time_to_correction_censored_count": 46,
+        "horizon_reward_mean": 0.0,
+        "grounded_admission_rate": null,
+        "bracket": {
+          "baseline_version": "tier6-baselines-v0",
+          "B0_memoryless_replay": {
+            "repeated_failure_rate": 1.0,
+            "horizon_reward": 0.0
+          },
+          "Bstar_oracle_memory": {
+            "repeated_failure_rate": 0.0,
+            "horizon_reward": 1.0
+          },
+          "position_repeated_failure_rate": 0.0,
+          "position_horizon_reward": 0.0
+        }
+      }
+    },
+    "Bstar_oracle_memory": {
+      "jobshop_breakdown": {
+        "num_events": 50,
+        "num_control_events": 10,
+        "num_non_control_events": 40,
+        "safety_passed": true,
+        "safety_counts": {
+          "invalid_commit_count": 0,
+          "evidence_destroying_repair_count": 0,
+          "orphaned_dependent_count": 0
+        },
+        "repeated_failure_rate": 0.0,
+        "repeated_failure_rate_controls": 0.0,
+        "time_to_correction_mean_observed": 1,
+        "time_to_correction_observed_count": 4,
+        "time_to_correction_censored_count": 46,
+        "horizon_reward_mean": 0.96,
+        "grounded_admission_rate": null,
+        "bracket": {
+          "baseline_version": "tier6-baselines-v0",
+          "B0_memoryless_replay": {
+            "repeated_failure_rate": 1.0,
+            "horizon_reward": 0.0
+          },
+          "Bstar_oracle_memory": {
+            "repeated_failure_rate": 0.0,
+            "horizon_reward": 1.0
+          },
+          "position_repeated_failure_rate": 1.0,
+          "position_horizon_reward": 0.96
+        }
+      },
+      "ride_or_routing_disruption": {
+        "num_events": 50,
+        "num_control_events": 10,
+        "num_non_control_events": 40,
+        "safety_passed": true,
+        "safety_counts": {
+          "invalid_commit_count": 0,
+          "evidence_destroying_repair_count": 0,
+          "orphaned_dependent_count": 0
+        },
+        "repeated_failure_rate": 0.0,
+        "repeated_failure_rate_controls": 0.0,
+        "time_to_correction_mean_observed": 1,
+        "time_to_correction_observed_count": 4,
+        "time_to_correction_censored_count": 46,
+        "horizon_reward_mean": 0.96,
+        "grounded_admission_rate": null,
+        "bracket": {
+          "baseline_version": "tier6-baselines-v0",
+          "B0_memoryless_replay": {
+            "repeated_failure_rate": 1.0,
+            "horizon_reward": 0.0
+          },
+          "Bstar_oracle_memory": {
+            "repeated_failure_rate": 0.0,
+            "horizon_reward": 1.0
+          },
+          "position_repeated_failure_rate": 1.0,
+          "position_horizon_reward": 0.96
+        }
+      },
+      "wedding_recovery": {
+        "num_events": 50,
+        "num_control_events": 10,
+        "num_non_control_events": 40,
+        "safety_passed": true,
+        "safety_counts": {
+          "invalid_commit_count": 0,
+          "evidence_destroying_repair_count": 0,
+          "orphaned_dependent_count": 0
+        },
+        "repeated_failure_rate": 0.0,
+        "repeated_failure_rate_controls": 0.0,
+        "time_to_correction_mean_observed": 1,
+        "time_to_correction_observed_count": 4,
+        "time_to_correction_censored_count": 46,
+        "horizon_reward_mean": 0.96,
+        "grounded_admission_rate": null,
+        "bracket": {
+          "baseline_version": "tier6-baselines-v0",
+          "B0_memoryless_replay": {
+            "repeated_failure_rate": 1.0,
+            "horizon_reward": 0.0
+          },
+          "Bstar_oracle_memory": {
+            "repeated_failure_rate": 0.0,
+            "horizon_reward": 1.0
+          },
+          "position_repeated_failure_rate": 1.0,
+          "position_horizon_reward": 0.96
+        }
+      }
+    }
+  },
+  "chapter6_family_table": [
+    {
+      "family": "jobshop_breakdown",
+      "system_id": "B0_memoryless_replay",
+      "display_name": "B0 memoryless replay",
+      "evidence_type": "deterministic_reference_baseline",
+      "num_events": 50,
+      "safety_passed": true,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "repeated_failure_rate": 1.0,
+      "repeated_failure_rate_controls": 0.0,
+      "horizon_reward_mean": 0.0,
+      "grounded_admission_rate": null,
+      "rfr_bracket_position": 0.0,
+      "horizon_bracket_position": 0.0
+    },
+    {
+      "family": "jobshop_breakdown",
+      "system_id": "Bstar_oracle_memory",
+      "display_name": "B* oracle memory",
+      "evidence_type": "deterministic_reference_baseline",
+      "num_events": 50,
+      "safety_passed": true,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "repeated_failure_rate": 0.0,
+      "repeated_failure_rate_controls": 0.0,
+      "horizon_reward_mean": 0.96,
+      "grounded_admission_rate": null,
+      "rfr_bracket_position": 1.0,
+      "horizon_bracket_position": 0.96
+    },
+    {
+      "family": "ride_or_routing_disruption",
+      "system_id": "B0_memoryless_replay",
+      "display_name": "B0 memoryless replay",
+      "evidence_type": "deterministic_reference_baseline",
+      "num_events": 50,
+      "safety_passed": true,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "repeated_failure_rate": 1.0,
+      "repeated_failure_rate_controls": 0.0,
+      "horizon_reward_mean": 0.0,
+      "grounded_admission_rate": null,
+      "rfr_bracket_position": 0.0,
+      "horizon_bracket_position": 0.0
+    },
+    {
+      "family": "ride_or_routing_disruption",
+      "system_id": "Bstar_oracle_memory",
+      "display_name": "B* oracle memory",
+      "evidence_type": "deterministic_reference_baseline",
+      "num_events": 50,
+      "safety_passed": true,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "repeated_failure_rate": 0.0,
+      "repeated_failure_rate_controls": 0.0,
+      "horizon_reward_mean": 0.96,
+      "grounded_admission_rate": null,
+      "rfr_bracket_position": 1.0,
+      "horizon_bracket_position": 0.96
+    },
+    {
+      "family": "wedding_recovery",
+      "system_id": "B0_memoryless_replay",
+      "display_name": "B0 memoryless replay",
+      "evidence_type": "deterministic_reference_baseline",
+      "num_events": 50,
+      "safety_passed": true,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "repeated_failure_rate": 1.0,
+      "repeated_failure_rate_controls": 0.0,
+      "horizon_reward_mean": 0.0,
+      "grounded_admission_rate": null,
+      "rfr_bracket_position": 0.0,
+      "horizon_bracket_position": 0.0
+    },
+    {
+      "family": "wedding_recovery",
+      "system_id": "Bstar_oracle_memory",
+      "display_name": "B* oracle memory",
+      "evidence_type": "deterministic_reference_baseline",
+      "num_events": 50,
+      "safety_passed": true,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "repeated_failure_rate": 0.0,
+      "repeated_failure_rate_controls": 0.0,
+      "horizon_reward_mean": 0.96,
+      "grounded_admission_rate": null,
+      "rfr_bracket_position": 1.0,
+      "horizon_bracket_position": 0.96
+    },
+    {
+      "family": "jobshop_breakdown",
+      "system_id": "mnemosyne_live_llm_r88_pilot",
+      "display_name": "Mnemosyne live-LLM pilot",
+      "evidence_type": "manual_live_llm_pilot",
+      "num_events": 40,
+      "safety_passed": true,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "repeated_failure_rate": 0.0,
+      "repeated_failure_rate_controls": 0.0,
+      "horizon_reward_mean": 0.90125,
+      "grounded_admission_rate": 0.725,
+      "rfr_bracket_position": 1.0,
+      "horizon_bracket_position": 0.90125,
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "official_scorer_invoked": true,
+      "family_assignment_note": "R88 pilot sequence was generated from the jobshop_breakdown pilot pack; R92 assigns it to the configured live_pilot_family."
+    }
+  ],
+  "allowed_claims": [
+    "Tier-6 deterministic baseline behavior can be stratified by family.",
+    "The Chapter 6 evidence covers jobshop, routing, and wedding recovery families at the deterministic baseline layer.",
+    "The R88 live-LLM pilot can be reported as a jobshop-family pilot row with explicit claim boundary."
+  ],
+  "disallowed_claims": [
+    "family-generalized live-LLM evidence across all families",
+    "confirmatory-scale benchmark evidence",
+    "API-automated live LLM evidence",
+    "production CTL-domain StateView realization",
+    "proof of AGI, wisdom, or autonomous scientific reasoning"
+  ]
+}
