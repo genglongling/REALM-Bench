@@ -6,7 +6,7 @@ R91 imports deterministic Mnemosyne Tier-6 adapter/kernel results and reports CR
 
 ## Source Availability
 
-- Candidate records: `12`
+- Candidate records: `48`
 - Available configs: `E0, E2, E3, E7`
 - Missing configs: ``
 - All required configs available: `True`
@@ -15,10 +15,10 @@ R91 imports deterministic Mnemosyne Tier-6 adapter/kernel results and reports CR
 
 | Config | Stack | Safety | RFR | Horizon reward | Grounded admission | RFR bracket | Horizon bracket | ΔRFR vs E0 | ΔHorizon vs E0 |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|
-| E0 | Engine only | None | None | None | None | None | None | None | None |
-| E2 | +R causal audit | None | None | None | None | None | None | None | None |
-| E3 | +T temporal accountability | None | None | None | None | None | None | None | None |
-| E7 | +C+R+T full stack | None | None | None | None | None | None | None | None |
+| E0 | Engine only | True | 1.0 | 0.0 | None | 0.0 | 0.0 | 0.0 | 0.0 |
+| E2 | +R causal audit | True | 0.0 | 0.3076923076923077 | None | 1.0 | 0.3076923076923077 | -1.0 | 0.3076923076923077 |
+| E3 | +T temporal accountability | True | 1.0 | 0.75 | None | 0.0 | 0.75 | 0.0 | 0.75 |
+| E7 | +C+R+T full stack | True | 0.0 | 0.8423076923076923 | 1.0 | 1.0 | 0.8423076923076923 | -1.0 | 0.8423076923076923 |
 
 ## Interpretation
 
@@ -41,4 +41,4 @@ For Chapter 6, this table explains not only that the Tier-6 pipeline works, but 
 
 ## Chapter 6 Insert Draft
 
-The CRT ablation compares E0, E2, E3, and E7 under the deterministic Mnemosyne Tier-6 adapter setting. The full E7 stack reports repeated failure rate `None`, horizon reward `None`, and grounded admission rate `None`. Relative to E0, this provides the ablation layer needed to attribute Chapter 6's recovery behavior to the CRT controls rather than to the benchmark harness alone.
+The CRT ablation compares E0, E2, E3, and E7 under the deterministic Mnemosyne Tier-6 adapter setting. The full E7 stack reports repeated failure rate `0.0`, horizon reward `0.8423076923076923`, and grounded admission rate `1.0`. Relative to E0, this provides the ablation layer needed to attribute Chapter 6's recovery behavior to the CRT controls rather than to the benchmark harness alone.

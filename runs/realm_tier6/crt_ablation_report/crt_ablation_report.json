@@ -6,7 +6,7 @@
     "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_runtime",
     "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne"
   ],
-  "num_candidate_records": 12,
+  "num_candidate_records": 48,
   "available_configs": [
     "E0",
     "E2",
@@ -26,16 +26,16 @@
         "T": 0
       },
       "available": true,
-      "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E0_kernel_adapter_v0/manifest.json",
+      "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E0_kernel_adapter_v0/summary.json",
       "num_events": 78,
-      "safety_passed": null,
-      "repeated_failure_rate": null,
-      "horizon_reward_mean": null,
+      "safety_passed": true,
+      "repeated_failure_rate": 1.0,
+      "horizon_reward_mean": 0.0,
       "grounded_admission_rate": null,
-      "rfr_bracket_position": null,
-      "horizon_bracket_position": null,
-      "delta_rfr_vs_e0": null,
-      "delta_horizon_vs_e0": null
+      "rfr_bracket_position": 0.0,
+      "horizon_bracket_position": 0.0,
+      "delta_rfr_vs_e0": 0.0,
+      "delta_horizon_vs_e0": 0.0
     },
     {
       "config_id": "E2",
@@ -47,16 +47,16 @@
         "T": 0
       },
       "available": true,
-      "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E2_kernel_adapter_v0/manifest.json",
+      "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E2_kernel_adapter_v0/summary.json",
       "num_events": 78,
-      "safety_passed": null,
-      "repeated_failure_rate": null,
-      "horizon_reward_mean": null,
+      "safety_passed": true,
+      "repeated_failure_rate": 0.0,
+      "horizon_reward_mean": 0.3076923076923077,
       "grounded_admission_rate": null,
-      "rfr_bracket_position": null,
-      "horizon_bracket_position": null,
-      "delta_rfr_vs_e0": null,
-      "delta_horizon_vs_e0": null
+      "rfr_bracket_position": 1.0,
+      "horizon_bracket_position": 0.3076923076923077,
+      "delta_rfr_vs_e0": -1.0,
+      "delta_horizon_vs_e0": 0.3076923076923077
     },
     {
       "config_id": "E3",
@@ -68,16 +68,16 @@
         "T": 1
       },
       "available": true,
-      "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E3_kernel_adapter_v0/manifest.json",
+      "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E3_kernel_adapter_v0/summary.json",
       "num_events": 78,
-      "safety_passed": null,
-      "repeated_failure_rate": null,
-      "horizon_reward_mean": null,
+      "safety_passed": true,
+      "repeated_failure_rate": 1.0,
+      "horizon_reward_mean": 0.75,
       "grounded_admission_rate": null,
-      "rfr_bracket_position": null,
-      "horizon_bracket_position": null,
-      "delta_rfr_vs_e0": null,
-      "delta_horizon_vs_e0": null
+      "rfr_bracket_position": 0.0,
+      "horizon_bracket_position": 0.75,
+      "delta_rfr_vs_e0": 0.0,
+      "delta_horizon_vs_e0": 0.75
     },
     {
       "config_id": "E7",
@@ -89,16 +89,16 @@
         "T": 1
       },
       "available": true,
-      "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E7_kernel_adapter_v0/manifest.json",
+      "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E7_kernel_adapter_v0/summary.json",
       "num_events": 78,
-      "safety_passed": null,
-      "repeated_failure_rate": null,
-      "horizon_reward_mean": null,
-      "grounded_admission_rate": null,
-      "rfr_bracket_position": null,
-      "horizon_bracket_position": null,
-      "delta_rfr_vs_e0": null,
-      "delta_horizon_vs_e0": null
+      "safety_passed": true,
+      "repeated_failure_rate": 0.0,
+      "horizon_reward_mean": 0.8423076923076923,
+      "grounded_admission_rate": 1.0,
+      "rfr_bracket_position": 1.0,
+      "horizon_bracket_position": 0.8423076923076923,
+      "delta_rfr_vs_e0": -1.0,
+      "delta_horizon_vs_e0": 0.8423076923076923
     }
   ],
   "e7_summary": {
@@ -111,16 +111,16 @@
       "T": 1
     },
     "available": true,
-    "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E7_kernel_adapter_v0/manifest.json",
+    "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E7_kernel_adapter_v0/summary.json",
     "num_events": 78,
-    "safety_passed": null,
-    "repeated_failure_rate": null,
-    "horizon_reward_mean": null,
-    "grounded_admission_rate": null,
-    "rfr_bracket_position": null,
-    "horizon_bracket_position": null,
-    "delta_rfr_vs_e0": null,
-    "delta_horizon_vs_e0": null
+    "safety_passed": true,
+    "repeated_failure_rate": 0.0,
+    "horizon_reward_mean": 0.8423076923076923,
+    "grounded_admission_rate": 1.0,
+    "rfr_bracket_position": 1.0,
+    "horizon_bracket_position": 0.8423076923076923,
+    "delta_rfr_vs_e0": -1.0,
+    "delta_horizon_vs_e0": 0.8423076923076923
   },
   "allowed_claims": [
     "The deterministic Mnemosyne Tier-6 adapter results support an E0/E2/E3/E7 CRT ablation table.",
