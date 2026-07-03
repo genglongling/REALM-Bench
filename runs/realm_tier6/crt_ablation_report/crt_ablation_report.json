@@ -1,0 +1,136 @@
+{
+  "schema": "realm_tier6_crt_ablation_report_v0",
+  "claim_boundary": "R91 imports deterministic Mnemosyne Tier-6 adapter/kernel results and reports CRT-stack ablations for E0/E2/E3/E7. It supports Chapter 6 ablation evidence, not confirmatory-scale evidence.",
+  "search_roots": [
+    "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel",
+    "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_runtime",
+    "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne"
+  ],
+  "num_candidate_records": 12,
+  "available_configs": [
+    "E0",
+    "E2",
+    "E3",
+    "E7"
+  ],
+  "missing_configs": [],
+  "all_required_configs_available": true,
+  "chapter6_table": [
+    {
+      "config_id": "E0",
+      "label": "Engine only",
+      "switches": {
+        "A": 0,
+        "C": 0,
+        "R": 0,
+        "T": 0
+      },
+      "available": true,
+      "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E0_kernel_adapter_v0/manifest.json",
+      "num_events": 78,
+      "safety_passed": null,
+      "repeated_failure_rate": null,
+      "horizon_reward_mean": null,
+      "grounded_admission_rate": null,
+      "rfr_bracket_position": null,
+      "horizon_bracket_position": null,
+      "delta_rfr_vs_e0": null,
+      "delta_horizon_vs_e0": null
+    },
+    {
+      "config_id": "E2",
+      "label": "+R causal audit",
+      "switches": {
+        "A": 0,
+        "C": 0,
+        "R": 1,
+        "T": 0
+      },
+      "available": true,
+      "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E2_kernel_adapter_v0/manifest.json",
+      "num_events": 78,
+      "safety_passed": null,
+      "repeated_failure_rate": null,
+      "horizon_reward_mean": null,
+      "grounded_admission_rate": null,
+      "rfr_bracket_position": null,
+      "horizon_bracket_position": null,
+      "delta_rfr_vs_e0": null,
+      "delta_horizon_vs_e0": null
+    },
+    {
+      "config_id": "E3",
+      "label": "+T temporal accountability",
+      "switches": {
+        "A": 0,
+        "C": 0,
+        "R": 0,
+        "T": 1
+      },
+      "available": true,
+      "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E3_kernel_adapter_v0/manifest.json",
+      "num_events": 78,
+      "safety_passed": null,
+      "repeated_failure_rate": null,
+      "horizon_reward_mean": null,
+      "grounded_admission_rate": null,
+      "rfr_bracket_position": null,
+      "horizon_bracket_position": null,
+      "delta_rfr_vs_e0": null,
+      "delta_horizon_vs_e0": null
+    },
+    {
+      "config_id": "E7",
+      "label": "+C+R+T full stack",
+      "switches": {
+        "A": 0,
+        "C": 1,
+        "R": 1,
+        "T": 1
+      },
+      "available": true,
+      "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E7_kernel_adapter_v0/manifest.json",
+      "num_events": 78,
+      "safety_passed": null,
+      "repeated_failure_rate": null,
+      "horizon_reward_mean": null,
+      "grounded_admission_rate": null,
+      "rfr_bracket_position": null,
+      "horizon_bracket_position": null,
+      "delta_rfr_vs_e0": null,
+      "delta_horizon_vs_e0": null
+    }
+  ],
+  "e7_summary": {
+    "config_id": "E7",
+    "label": "+C+R+T full stack",
+    "switches": {
+      "A": 0,
+      "C": 1,
+      "R": 1,
+      "T": 1
+    },
+    "available": true,
+    "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E7_kernel_adapter_v0/manifest.json",
+    "num_events": 78,
+    "safety_passed": null,
+    "repeated_failure_rate": null,
+    "horizon_reward_mean": null,
+    "grounded_admission_rate": null,
+    "rfr_bracket_position": null,
+    "horizon_bracket_position": null,
+    "delta_rfr_vs_e0": null,
+    "delta_horizon_vs_e0": null
+  },
+  "allowed_claims": [
+    "The deterministic Mnemosyne Tier-6 adapter results support an E0/E2/E3/E7 CRT ablation table.",
+    "E7 can be compared against E0 to quantify full-stack improvement in repeated-failure and horizon-reward metrics.",
+    "E2 and E3 isolate causal-audit and temporal-accountability contributions within the deterministic adapter setting."
+  ],
+  "disallowed_claims": [
+    "confirmatory-scale benchmark evidence",
+    "API-automated LLM behavior",
+    "production CTL-domain StateView realization",
+    "proof of AGI, wisdom, or autonomous scientific reasoning"
+  ]
+}

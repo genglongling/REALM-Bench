@@ -1,0 +1,86 @@
+[
+  {
+    "config_id": "E0",
+    "label": "Engine only",
+    "switches": {
+      "A": 0,
+      "C": 0,
+      "R": 0,
+      "T": 0
+    },
+    "available": true,
+    "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E0_kernel_adapter_v0/manifest.json",
+    "num_events": 78,
+    "safety_passed": null,
+    "repeated_failure_rate": null,
+    "horizon_reward_mean": null,
+    "grounded_admission_rate": null,
+    "rfr_bracket_position": null,
+    "horizon_bracket_position": null,
+    "delta_rfr_vs_e0": null,
+    "delta_horizon_vs_e0": null
+  },
+  {
+    "config_id": "E2",
+    "label": "+R causal audit",
+    "switches": {
+      "A": 0,
+      "C": 0,
+      "R": 1,
+      "T": 0
+    },
+    "available": true,
+    "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E2_kernel_adapter_v0/manifest.json",
+    "num_events": 78,
+    "safety_passed": null,
+    "repeated_failure_rate": null,
+    "horizon_reward_mean": null,
+    "grounded_admission_rate": null,
+    "rfr_bracket_position": null,
+    "horizon_bracket_position": null,
+    "delta_rfr_vs_e0": null,
+    "delta_horizon_vs_e0": null
+  },
+  {
+    "config_id": "E3",
+    "label": "+T temporal accountability",
+    "switches": {
+      "A": 0,
+      "C": 0,
+      "R": 0,
+      "T": 1
+    },
+    "available": true,
+    "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E3_kernel_adapter_v0/manifest.json",
+    "num_events": 78,
+    "safety_passed": null,
+    "repeated_failure_rate": null,
+    "horizon_reward_mean": null,
+    "grounded_admission_rate": null,
+    "rfr_bracket_position": null,
+    "horizon_bracket_position": null,
+    "delta_rfr_vs_e0": null,
+    "delta_horizon_vs_e0": null
+  },
+  {
+    "config_id": "E7",
+    "label": "+C+R+T full stack",
+    "switches": {
+      "A": 0,
+      "C": 1,
+      "R": 1,
+      "T": 1
+    },
+    "available": true,
+    "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E7_kernel_adapter_v0/manifest.json",
+    "num_events": 78,
+    "safety_passed": null,
+    "repeated_failure_rate": null,
+    "horizon_reward_mean": null,
+    "grounded_admission_rate": null,
+    "rfr_bracket_position": null,
+    "horizon_bracket_position": null,
+    "delta_rfr_vs_e0": null,
+    "delta_horizon_vs_e0": null
+  }
+]
