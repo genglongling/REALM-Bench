@@ -15,6 +15,7 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import re
 from pathlib import Path
 from typing import Any, Dict, Iterable, List
 
@@ -90,17 +91,16 @@ def infer_config_id(path: Path, value: Dict[str, Any]) -> str | None:
         if config:
             return config
 
-    for part in path.parts:
-        if part in CONFIG_ORDER:
-            return part
-
-    stem_parts = path.stem.replace("-", "_").split("_")
-    for part in stem_parts:
-        if part in CONFIG_ORDER:
-            return part
+    # Prefer path-derived config ids when summaries live under directories such
+    # as mnemosyne_tier6_E7_kernel_adapter_v0/summary.json.
+    path_text = "/".join(path.parts)
+    tokens = re.split(r"[^A-Za-z0-9]+", path_text)
+    for token in tokens:
+        config = normalize_config_id(token)
+        if config:
+            return config
 
     return None
-
 
 def normalize_metric_value(value: Any) -> Any:
     if isinstance(value, float):
@@ -200,13 +200,20 @@ def completeness_score(record: Dict[str, Any]) -> int:
             score += 1
 
     source = record.get("source_path", "")
+
+    # Prefer actual scorer summaries over manifests. Manifests often contain
+    # config_id and num_events but not the Tier-6 metrics needed by Chapter 6.
+    if source.endswith("/summary.json"):
+        score += 8
+    if source.endswith("/manifest.json"):
+        score -= 8
+
     if "kernel" in source:
         score += 3
     if "runtime" in source:
         score += 1
 
     return score
-
 
 def select_best_records(records: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
     selected: Dict[str, Dict[str, Any]] = {}
