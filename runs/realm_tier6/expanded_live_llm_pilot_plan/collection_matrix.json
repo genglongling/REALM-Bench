@@ -1,0 +1,1962 @@
+[
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 1,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:claude:e01"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 2,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:claude:e02"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 3,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:claude:e03"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 4,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:claude:e04"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 5,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:claude:e05"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 6,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:claude:e06"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 7,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:claude:e07"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 8,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:claude:e08"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 9,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:claude:e09"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 10,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:claude:e10"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 1,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:gpt:e01"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 2,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:gpt:e02"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 3,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:gpt:e03"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 4,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:gpt:e04"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 5,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:gpt:e05"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 6,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:gpt:e06"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 7,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:gpt:e07"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 8,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:gpt:e08"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 9,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:gpt:e09"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 10,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:gpt:e10"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 1,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_expert:e01"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 2,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_expert:e02"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 3,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_expert:e03"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 4,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_expert:e04"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 5,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_expert:e05"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 6,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_expert:e06"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 7,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_expert:e07"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 8,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_expert:e08"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 9,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_expert:e09"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 10,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_expert:e10"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 1,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_instant:e01"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 2,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_instant:e02"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 3,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_instant:e03"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 4,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_instant:e04"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 5,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_instant:e05"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 6,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_instant:e06"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 7,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_instant:e07"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 8,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_instant:e08"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 9,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_instant:e09"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "jobshop_breakdown",
+    "sequence_id": "T6-76095aec5ba1",
+    "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+    "source_path": "datasets/J4/custom/j4_custom_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 10,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "jobshop_breakdown:T6-76095aec5ba1:E7:deepseek_instant:e10"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 1,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:claude:e01"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 2,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:claude:e02"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 3,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:claude:e03"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 4,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:claude:e04"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 5,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:claude:e05"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 6,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:claude:e06"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 7,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:claude:e07"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 8,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:claude:e08"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 9,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:claude:e09"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 10,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:claude:e10"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 1,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:gpt:e01"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 2,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:gpt:e02"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 3,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:gpt:e03"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 4,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:gpt:e04"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 5,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:gpt:e05"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 6,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:gpt:e06"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 7,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:gpt:e07"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 8,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:gpt:e08"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 9,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:gpt:e09"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 10,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:gpt:e10"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 1,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_expert:e01"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 2,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_expert:e02"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 3,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_expert:e03"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 4,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_expert:e04"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 5,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_expert:e05"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 6,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_expert:e06"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 7,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_expert:e07"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 8,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_expert:e08"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 9,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_expert:e09"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 10,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_expert:e10"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 1,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_instant:e01"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 2,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_instant:e02"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 3,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_instant:e03"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 4,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_instant:e04"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 5,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_instant:e05"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 6,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_instant:e06"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 7,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_instant:e07"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 8,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_instant:e08"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 9,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_instant:e09"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "ride_or_routing_disruption",
+    "sequence_id": "T6-c574beceb46d",
+    "base_instance_id": "ride_or_routing_disruption:datasets/P4/disruptions/p4_instance_001.json",
+    "source_path": "datasets/P4/disruptions/p4_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 10,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "repair.deleted_trigger_evidence"
+    ],
+    "collection_unit": "ride_or_routing_disruption:T6-c574beceb46d:E7:deepseek_instant:e10"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 1,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:claude:e01"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 2,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:claude:e02"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 3,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:claude:e03"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 4,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:claude:e04"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 5,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:claude:e05"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 6,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:claude:e06"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 7,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:claude:e07"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 8,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:claude:e08"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 9,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:claude:e09"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "claude",
+    "episode_id": 10,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:claude:e10"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 1,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:gpt:e01"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 2,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:gpt:e02"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 3,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:gpt:e03"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 4,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:gpt:e04"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 5,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:gpt:e05"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 6,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:gpt:e06"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 7,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:gpt:e07"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 8,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:gpt:e08"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 9,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:gpt:e09"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "gpt",
+    "episode_id": 10,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:gpt:e10"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 1,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_expert:e01"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 2,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_expert:e02"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 3,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_expert:e03"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 4,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_expert:e04"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 5,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_expert:e05"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 6,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_expert:e06"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 7,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_expert:e07"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 8,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_expert:e08"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 9,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_expert:e09"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_expert",
+    "episode_id": 10,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_expert:e10"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 1,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_instant:e01"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 2,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_instant:e02"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 3,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_instant:e03"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 4,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_instant:e04"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 5,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_instant:e05"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 6,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_instant:e06"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 7,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_instant:e07"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 8,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_instant:e08"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 9,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_instant:e09"
+  },
+  {
+    "status": "planned_not_collected",
+    "family": "wedding_recovery",
+    "sequence_id": "T6-6039d2a74221",
+    "base_instance_id": "wedding_recovery:datasets/P8/disruptions/p8_instance_001.json",
+    "source_path": "datasets/P8/disruptions/p8_instance_001.json",
+    "config_id": "E7",
+    "condition_label": "full_crt_stack",
+    "pack_name": "deepseek_instant",
+    "episode_id": 10,
+    "is_control_sequence": false,
+    "hazard_signatures": [
+      "stale_world.route_time_underestimated",
+      "temporal.myopic_choice_causes_later_failure"
+    ],
+    "collection_unit": "wedding_recovery:T6-6039d2a74221:E7:deepseek_instant:e10"
+  }
+]
