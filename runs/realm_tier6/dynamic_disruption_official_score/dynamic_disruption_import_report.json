@@ -1,0 +1,10 @@
+{
+  "schema": "realm_tier6_mnemosyne_dynamic_disruption_import_report_v0",
+  "source_events": 40,
+  "converted_events": 40,
+  "validation_passed": true,
+  "official_scorer_required": true,
+  "official_scorer_invoked": true,
+  "score_report": "runs/realm_tier6/dynamic_disruption_official_score/dynamic_disruption_score_report.json",
+  "events_path": "runs/realm_tier6/dynamic_disruption_official_score/dynamic_disruption_events.jsonl"
+}
