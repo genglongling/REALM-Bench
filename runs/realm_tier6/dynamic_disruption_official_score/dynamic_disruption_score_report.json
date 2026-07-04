@@ -1,0 +1,1897 @@
+{
+  "schema": "realm_tier6_mnemosyne_dynamic_disruption_score_report_v0",
+  "claim_boundary": "REALM Tier-6 public scorer invoked on Mnemosyne R98 dynamic disruption replay events. This is a bounded dynamic jobshop/E7 pilot score, not a family-generalized or confirmatory-scale result.",
+  "official_scorer_invoked": true,
+  "score_scope": "mnemosyne_dynamic_disruption_replay_events",
+  "num_events": 40,
+  "sequence_id": "T6-DYN-jobshop-e7-0001",
+  "config_id": "E7",
+  "condition_label": "full_crt_stack",
+  "dynamic_summary": {
+    "decisions": {
+      "admit": 24,
+      "reject": 16
+    },
+    "outcomes": {
+      "admitted_repair": 24,
+      "rejected_other": 12,
+      "safe_rejection": 4
+    },
+    "dynamic_admit_count": 24,
+    "dynamic_reject_count": 16,
+    "dynamic_observe_count": 0,
+    "dynamic_safe_rejection_count": 4
+  },
+  "overall_score": {
+    "num_events": 40,
+    "num_control_events": 0,
+    "num_non_control_events": 40,
+    "safety_passed": true,
+    "safety_counts": {
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0
+    },
+    "repeated_failure_rate": 0.0,
+    "repeated_failure_rate_controls": 0.0,
+    "time_to_correction_mean_observed": 0.725,
+    "time_to_correction_observed_count": 40,
+    "time_to_correction_censored_count": 0,
+    "horizon_reward_mean": 0.925,
+    "grounded_admission_rate": 0.6,
+    "cost": {
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wallclock_ms": 0
+    },
+    "bracket": {
+      "baseline_version": "tier6-baselines-v0",
+      "B0_memoryless_replay": {
+        "repeated_failure_rate": 1.0,
+        "horizon_reward": 0.0
+      },
+      "Bstar_oracle_memory": {
+        "repeated_failure_rate": 0.0,
+        "horizon_reward": 1.0
+      },
+      "position_repeated_failure_rate": 1.0,
+      "position_horizon_reward": 0.925
+    }
+  },
+  "pack_scores": {
+    "claude": {
+      "num_events": 10,
+      "safety_passed": true,
+      "safety_counts": {
+        "invalid_commit_count": 0,
+        "evidence_destroying_repair_count": 0,
+        "orphaned_dependent_count": 0
+      },
+      "repeated_failure_rate": 0.0,
+      "horizon_reward_mean": 0.975,
+      "grounded_admission_rate": 0.9,
+      "time_to_correction_mean_observed": 0.9,
+      "time_to_correction_observed_count": 10,
+      "time_to_correction_censored_count": 0,
+      "bracket": {
+        "baseline_version": "tier6-baselines-v0",
+        "B0_memoryless_replay": {
+          "repeated_failure_rate": 1.0,
+          "horizon_reward": 0.0
+        },
+        "Bstar_oracle_memory": {
+          "repeated_failure_rate": 0.0,
+          "horizon_reward": 1.0
+        },
+        "position_repeated_failure_rate": 1.0,
+        "position_horizon_reward": 0.975
+      }
+    },
+    "deepseek_expert": {
+      "num_events": 10,
+      "safety_passed": true,
+      "safety_counts": {
+        "invalid_commit_count": 0,
+        "evidence_destroying_repair_count": 0,
+        "orphaned_dependent_count": 0
+      },
+      "repeated_failure_rate": 0.0,
+      "horizon_reward_mean": 0.95,
+      "grounded_admission_rate": 0.5,
+      "time_to_correction_mean_observed": 0.8,
+      "time_to_correction_observed_count": 10,
+      "time_to_correction_censored_count": 0,
+      "bracket": {
+        "baseline_version": "tier6-baselines-v0",
+        "B0_memoryless_replay": {
+          "repeated_failure_rate": 1.0,
+          "horizon_reward": 0.0
+        },
+        "Bstar_oracle_memory": {
+          "repeated_failure_rate": 0.0,
+          "horizon_reward": 1.0
+        },
+        "position_repeated_failure_rate": 1.0,
+        "position_horizon_reward": 0.95
+      }
+    },
+    "deepseek_instant": {
+      "num_events": 10,
+      "safety_passed": true,
+      "safety_counts": {
+        "invalid_commit_count": 0,
+        "evidence_destroying_repair_count": 0,
+        "orphaned_dependent_count": 0
+      },
+      "repeated_failure_rate": 0.0,
+      "horizon_reward_mean": 0.9,
+      "grounded_admission_rate": 0.5,
+      "time_to_correction_mean_observed": 0.7,
+      "time_to_correction_observed_count": 10,
+      "time_to_correction_censored_count": 0,
+      "bracket": {
+        "baseline_version": "tier6-baselines-v0",
+        "B0_memoryless_replay": {
+          "repeated_failure_rate": 1.0,
+          "horizon_reward": 0.0
+        },
+        "Bstar_oracle_memory": {
+          "repeated_failure_rate": 0.0,
+          "horizon_reward": 1.0
+        },
+        "position_repeated_failure_rate": 1.0,
+        "position_horizon_reward": 0.9
+      }
+    },
+    "gpt": {
+      "num_events": 10,
+      "safety_passed": true,
+      "safety_counts": {
+        "invalid_commit_count": 0,
+        "evidence_destroying_repair_count": 0,
+        "orphaned_dependent_count": 0
+      },
+      "repeated_failure_rate": 0.0,
+      "horizon_reward_mean": 0.875,
+      "grounded_admission_rate": 0.5,
+      "time_to_correction_mean_observed": 0.5,
+      "time_to_correction_observed_count": 10,
+      "time_to_correction_censored_count": 0,
+      "bracket": {
+        "baseline_version": "tier6-baselines-v0",
+        "B0_memoryless_replay": {
+          "repeated_failure_rate": 1.0,
+          "horizon_reward": 0.0
+        },
+        "Bstar_oracle_memory": {
+          "repeated_failure_rate": 0.0,
+          "horizon_reward": 1.0
+        },
+        "position_repeated_failure_rate": 1.0,
+        "position_horizon_reward": 0.875
+      }
+    }
+  },
+  "events": [
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::claude",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 1,
+      "seed": 99000,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "313e8f22-003f-5cab-8529-4aa01bf61b16",
+      "failure_signature": "machine_unavailable.M2_after_commit",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "claude",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::claude",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 2,
+      "seed": 99000,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "a45eab16-be00-57b1-b803-ad36c659dfd4",
+      "failure_signature": "setup_window_invalidated.M1",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "claude",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::claude",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 3,
+      "seed": 99000,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "7ed24fc5-26af-5d56-aa3a-2a3fe51a9dfd",
+      "failure_signature": "dependent_operation_orphan_risk.M3",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "claude",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::claude",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 4,
+      "seed": 99000,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "d4f704d2-b95c-5b3e-9564-ac147bd0c99c",
+      "failure_signature": "stale_duration_estimate.M0",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "claude",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::claude",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 5,
+      "seed": 99000,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "d73acb21-dd93-5389-9c44-f439ddae64d3",
+      "failure_signature": "evidence_destroying_reschedule_risk.M2",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "claude",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::claude",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 6,
+      "seed": 99000,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "1d0af2bf-f94c-5d4b-aa0f-34f21f7bd856",
+      "failure_signature": "precedence_violation_risk.M1",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "claude",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::claude",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 7,
+      "seed": 99000,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "ea192da5-c02f-5bec-8a65-2cfbe5d4d9d0",
+      "failure_signature": "resource_conflict_after_commit.M3",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "claude",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::claude",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 8,
+      "seed": 99000,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "16608a32-cbfa-5406-8f83-008faff2e367",
+      "failure_signature": "late_material_arrival.M0",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "claude",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::claude",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 9,
+      "seed": 99000,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "b6681c9f-374e-52eb-af07-2a1b611267e3",
+      "failure_signature": "unsafe_global_rollback_request.M2",
+      "predicted_outcome": "reject",
+      "observed_outcome": "rejected_other",
+      "delta": "rejected_before_commit",
+      "constraint_violations": [
+        "mnemosyne_dynamic_disruption.model_requested_rejection"
+      ],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 0,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 0.75,
+      "grounded_admission": false,
+      "pack_name": "claude",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "model_requested_rejection"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "rejected_other",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "rejected_other"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::claude",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 10,
+      "seed": 99000,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "c183f912-88e6-522e-bc34-52bc72990757",
+      "failure_signature": "repair_radius_exceeded.M1",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "claude",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_expert",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 1,
+      "seed": 99001,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "654d4619-fe95-5618-a4be-6683201f1eac",
+      "failure_signature": "machine_unavailable.M2_after_commit",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "deepseek_expert",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_expert",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 2,
+      "seed": 99001,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "a9ee25e0-d4a0-524d-a447-26dc6c6b0321",
+      "failure_signature": "setup_window_invalidated.M1",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "deepseek_expert",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_expert",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 3,
+      "seed": 99001,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "d5c83a22-b4ec-55b7-a831-3dcc44c9f2d9",
+      "failure_signature": "dependent_operation_orphan_risk.M3",
+      "predicted_outcome": "repair",
+      "observed_outcome": "safe_rejection",
+      "delta": "screened_before_commit",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": false,
+      "pack_name": "deepseek_expert",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "repair_radius_exceeded:2>1"
+      ],
+      "safe_rejection": true,
+      "mnemosyne_dynamic_outcome": "safe_rejection",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "safe_rejection"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_expert",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 4,
+      "seed": 99001,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "4c4aeeb9-dc70-514f-be8e-686a9b047757",
+      "failure_signature": "stale_duration_estimate.M0",
+      "predicted_outcome": "repair",
+      "observed_outcome": "safe_rejection",
+      "delta": "screened_before_commit",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": false,
+      "pack_name": "deepseek_expert",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "repair_radius_exceeded:2>1"
+      ],
+      "safe_rejection": true,
+      "mnemosyne_dynamic_outcome": "safe_rejection",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "safe_rejection"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_expert",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 5,
+      "seed": 99001,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "59e9a974-39ba-5155-bd23-60a585e66325",
+      "failure_signature": "evidence_destroying_reschedule_risk.M2",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "deepseek_expert",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_expert",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 6,
+      "seed": 99001,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "12a9c4b0-5eda-5683-9ef3-74737923c4a5",
+      "failure_signature": "precedence_violation_risk.M1",
+      "predicted_outcome": "repair",
+      "observed_outcome": "safe_rejection",
+      "delta": "screened_before_commit",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": false,
+      "pack_name": "deepseek_expert",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "repair_radius_exceeded:2>1"
+      ],
+      "safe_rejection": true,
+      "mnemosyne_dynamic_outcome": "safe_rejection",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "safe_rejection"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_expert",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 7,
+      "seed": 99001,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "886ac907-72ab-5391-93e0-5abbee8e89d8",
+      "failure_signature": "resource_conflict_after_commit.M3",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "deepseek_expert",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_expert",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 8,
+      "seed": 99001,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "2d9f07cb-39fe-5102-b178-6673b2232dba",
+      "failure_signature": "late_material_arrival.M0",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "deepseek_expert",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_expert",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 9,
+      "seed": 99001,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "f561cf0d-dec3-5925-81b2-7456f1a4d0b0",
+      "failure_signature": "unsafe_global_rollback_request.M2",
+      "predicted_outcome": "reject",
+      "observed_outcome": "rejected_other",
+      "delta": "rejected_before_commit",
+      "constraint_violations": [
+        "mnemosyne_dynamic_disruption.model_requested_rejection"
+      ],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 0,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 0.75,
+      "grounded_admission": false,
+      "pack_name": "deepseek_expert",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "model_requested_rejection"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "rejected_other",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "rejected_other"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_expert",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 10,
+      "seed": 99001,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "5a28d6ec-5348-5880-bc3e-e0a138db0c56",
+      "failure_signature": "repair_radius_exceeded.M1",
+      "predicted_outcome": "reject",
+      "observed_outcome": "rejected_other",
+      "delta": "rejected_before_commit",
+      "constraint_violations": [
+        "mnemosyne_dynamic_disruption.model_requested_rejection"
+      ],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 0,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 0.75,
+      "grounded_admission": false,
+      "pack_name": "deepseek_expert",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "model_requested_rejection"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "rejected_other",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "rejected_other"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_instant",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 1,
+      "seed": 99002,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "f3557a43-0afb-54f8-b39c-a8839e165cf1",
+      "failure_signature": "machine_unavailable.M2_after_commit",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "deepseek_instant",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_instant",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 2,
+      "seed": 99002,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "d95028dc-6937-5f14-86fd-f91ef10527d3",
+      "failure_signature": "setup_window_invalidated.M1",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "deepseek_instant",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_instant",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 3,
+      "seed": 99002,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "cb61c07e-77d6-5dd7-bbbe-1b5d97d4335d",
+      "failure_signature": "dependent_operation_orphan_risk.M3",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "deepseek_instant",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_instant",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 4,
+      "seed": 99002,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "2163323a-d04f-560c-8409-8a1245fc9972",
+      "failure_signature": "stale_duration_estimate.M0",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "deepseek_instant",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_instant",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 5,
+      "seed": 99002,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "d6b2ae31-cc95-53f3-b0c3-732d4c62c593",
+      "failure_signature": "evidence_destroying_reschedule_risk.M2",
+      "predicted_outcome": "repair",
+      "observed_outcome": "safe_rejection",
+      "delta": "screened_before_commit",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": false,
+      "pack_name": "deepseek_instant",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "repair_radius_exceeded:2>1"
+      ],
+      "safe_rejection": true,
+      "mnemosyne_dynamic_outcome": "safe_rejection",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "safe_rejection"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_instant",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 6,
+      "seed": 99002,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "7a219bd8-fffb-5dec-a50d-df7889208f8f",
+      "failure_signature": "precedence_violation_risk.M1",
+      "predicted_outcome": "reject",
+      "observed_outcome": "rejected_other",
+      "delta": "rejected_before_commit",
+      "constraint_violations": [
+        "mnemosyne_dynamic_disruption.model_requested_rejection"
+      ],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 0,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 0.75,
+      "grounded_admission": false,
+      "pack_name": "deepseek_instant",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "model_requested_rejection"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "rejected_other",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "rejected_other"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_instant",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 7,
+      "seed": 99002,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "4e05131f-40ab-59bb-ad65-de4c8ce3d533",
+      "failure_signature": "resource_conflict_after_commit.M3",
+      "predicted_outcome": "reject",
+      "observed_outcome": "rejected_other",
+      "delta": "rejected_before_commit",
+      "constraint_violations": [
+        "mnemosyne_dynamic_disruption.model_requested_rejection"
+      ],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 0,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 0.75,
+      "grounded_admission": false,
+      "pack_name": "deepseek_instant",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "model_requested_rejection"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "rejected_other",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "rejected_other"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_instant",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 8,
+      "seed": 99002,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "a73699f2-63dd-5e9c-b0fe-18b1ee0aba91",
+      "failure_signature": "late_material_arrival.M0",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "deepseek_instant",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_instant",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 9,
+      "seed": 99002,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "046eb7ac-5eaa-5f3d-87a3-7fed195b871e",
+      "failure_signature": "unsafe_global_rollback_request.M2",
+      "predicted_outcome": "reject",
+      "observed_outcome": "rejected_other",
+      "delta": "rejected_before_commit",
+      "constraint_violations": [
+        "mnemosyne_dynamic_disruption.model_requested_rejection"
+      ],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 0,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 0.75,
+      "grounded_admission": false,
+      "pack_name": "deepseek_instant",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "model_requested_rejection"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "rejected_other",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "rejected_other"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::deepseek_instant",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 10,
+      "seed": 99002,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "23ec1d90-eb97-5a2b-82fd-d876011ed491",
+      "failure_signature": "repair_radius_exceeded.M1",
+      "predicted_outcome": "reject",
+      "observed_outcome": "rejected_other",
+      "delta": "rejected_before_commit",
+      "constraint_violations": [
+        "mnemosyne_dynamic_disruption.model_requested_rejection"
+      ],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 0.75,
+      "grounded_admission": false,
+      "pack_name": "deepseek_instant",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "model_requested_rejection"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "rejected_other",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "rejected_other"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::gpt",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 1,
+      "seed": 99003,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "edfb6fbb-46f4-5b43-b36b-0a48bb2f5b33",
+      "failure_signature": "machine_unavailable.M2_after_commit",
+      "predicted_outcome": "reject",
+      "observed_outcome": "rejected_other",
+      "delta": "rejected_before_commit",
+      "constraint_violations": [
+        "mnemosyne_dynamic_disruption.model_requested_rejection"
+      ],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 0,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 0.75,
+      "grounded_admission": false,
+      "pack_name": "gpt",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "model_requested_rejection"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "rejected_other",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "rejected_other"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::gpt",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 2,
+      "seed": 99003,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "86e47030-0b75-5b79-a7c9-144ac0677d7f",
+      "failure_signature": "setup_window_invalidated.M1",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "gpt",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::gpt",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 3,
+      "seed": 99003,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "2ca0e547-eeed-5c2a-8f0b-4e2b3a9e712f",
+      "failure_signature": "dependent_operation_orphan_risk.M3",
+      "predicted_outcome": "reject",
+      "observed_outcome": "rejected_other",
+      "delta": "rejected_before_commit",
+      "constraint_violations": [
+        "mnemosyne_dynamic_disruption.model_requested_rejection"
+      ],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 0,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 0.75,
+      "grounded_admission": false,
+      "pack_name": "gpt",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "model_requested_rejection"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "rejected_other",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "rejected_other"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::gpt",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 4,
+      "seed": 99003,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "6be72739-4098-5bb4-9ba8-a4c058ec938f",
+      "failure_signature": "stale_duration_estimate.M0",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "gpt",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::gpt",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 5,
+      "seed": 99003,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "76aa4c6f-aa36-5f44-88c7-44500d5f0cee",
+      "failure_signature": "evidence_destroying_reschedule_risk.M2",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "gpt",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::gpt",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 6,
+      "seed": 99003,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "ba07177d-582a-51de-8d6c-050d180afa57",
+      "failure_signature": "precedence_violation_risk.M1",
+      "predicted_outcome": "reject",
+      "observed_outcome": "rejected_other",
+      "delta": "rejected_before_commit",
+      "constraint_violations": [
+        "mnemosyne_dynamic_disruption.model_requested_rejection"
+      ],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 0,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 0.75,
+      "grounded_admission": false,
+      "pack_name": "gpt",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "model_requested_rejection"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "rejected_other",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "rejected_other"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::gpt",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 7,
+      "seed": 99003,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "ba235614-61bc-5a9f-b70d-d2f309b4389f",
+      "failure_signature": "resource_conflict_after_commit.M3",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "gpt",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::gpt",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 8,
+      "seed": 99003,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "repair",
+      "proposal_id": "fafcdc6e-b37a-51df-bdd9-c7ea5397b43e",
+      "failure_signature": "late_material_arrival.M0",
+      "predicted_outcome": "repair",
+      "observed_outcome": "admitted_repair",
+      "delta": "corrected",
+      "constraint_violations": [],
+      "repair": {
+        "radius": 1,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 1,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 1.0,
+      "grounded_admission": true,
+      "pack_name": "gpt",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "admit",
+      "admission_reasons": [
+        "passed_admission_guards"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "admitted_repair",
+      "claim_status": "dynamic_disruption_pilot_scoring_only"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::gpt",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 9,
+      "seed": 99003,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "9d87840b-ea2b-5dcf-9d8a-b58ada47eb2b",
+      "failure_signature": "unsafe_global_rollback_request.M2",
+      "predicted_outcome": "reject",
+      "observed_outcome": "rejected_other",
+      "delta": "rejected_before_commit",
+      "constraint_violations": [
+        "mnemosyne_dynamic_disruption.model_requested_rejection"
+      ],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 0,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 0.75,
+      "grounded_admission": false,
+      "pack_name": "gpt",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "model_requested_rejection"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "rejected_other",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "rejected_other"
+    },
+    {
+      "sequence_id": "T6-DYN-jobshop-e7-0001::gpt",
+      "base_sequence_id": "T6-DYN-jobshop-e7-0001",
+      "episode_id": 10,
+      "seed": 99003,
+      "t": "2026-07-02T00:00:00Z",
+      "event": "reject",
+      "proposal_id": "035a4eb9-4cd4-55a2-bee7-a033b5ce59fe",
+      "failure_signature": "repair_radius_exceeded.M1",
+      "predicted_outcome": "reject",
+      "observed_outcome": "rejected_other",
+      "delta": "rejected_before_commit",
+      "constraint_violations": [
+        "mnemosyne_dynamic_disruption.model_requested_rejection"
+      ],
+      "repair": {
+        "radius": 0,
+        "evidence_preserved": true
+      },
+      "cost": {
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wallclock_ms": 0
+      },
+      "time_to_correction": 0,
+      "time_to_correction_censored": false,
+      "invalid_commit_count": 0,
+      "evidence_destroying_repair_count": 0,
+      "orphaned_dependent_count": 0,
+      "is_control_sequence": false,
+      "horizon_reward": 0.75,
+      "grounded_admission": false,
+      "pack_name": "gpt",
+      "base_instance_id": "jobshop_breakdown:datasets/J4/custom/j4_custom_001.json",
+      "family": "jobshop_breakdown",
+      "dynamic_phase": "mid_execution",
+      "admission_decision": "reject",
+      "admission_reasons": [
+        "model_requested_rejection"
+      ],
+      "safe_rejection": false,
+      "mnemosyne_dynamic_outcome": "rejected_other",
+      "claim_status": "dynamic_disruption_pilot_scoring_only",
+      "rejection_reason_code": "rejected_other"
+    }
+  ]
+}
