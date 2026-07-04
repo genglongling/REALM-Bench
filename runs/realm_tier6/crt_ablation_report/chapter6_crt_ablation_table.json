@@ -21,6 +21,27 @@
     "delta_horizon_vs_e0": 0.0
   },
   {
+    "config_id": "E1",
+    "label": "+C contextual admission",
+    "switches": {
+      "A": 0,
+      "C": 1,
+      "R": 0,
+      "T": 0
+    },
+    "available": true,
+    "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E1_kernel_adapter_v0/summary.json",
+    "num_events": 78,
+    "safety_passed": true,
+    "repeated_failure_rate": 1.0,
+    "horizon_reward_mean": 0.75,
+    "grounded_admission_rate": 1.0,
+    "rfr_bracket_position": 0.0,
+    "horizon_bracket_position": 0.75,
+    "delta_rfr_vs_e0": 0.0,
+    "delta_horizon_vs_e0": 0.75
+  },
+  {
     "config_id": "E2",
     "label": "+R causal audit",
     "switches": {
