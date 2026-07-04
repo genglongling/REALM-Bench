@@ -37,6 +37,7 @@ def test_collect_and_select_records(tmp_path) -> None:
 
 def test_build_ablation_table_computes_deltas(tmp_path) -> None:
     write_sample_result(tmp_path / "kernel" / "E0" / "summary.json", "E0", 1.0, 0.0)
+    write_sample_result(tmp_path / "kernel" / "E1" / "summary.json", "E1", 0.5, 0.5, 0.5)
     write_sample_result(tmp_path / "kernel" / "E2" / "summary.json", "E2", 0.0, 0.3076923076923077)
     write_sample_result(tmp_path / "kernel" / "E3" / "summary.json", "E3", 1.0, 0.75)
     write_sample_result(tmp_path / "kernel" / "E7" / "summary.json", "E7", 0.0, 0.8423076923076923, 1.0)
@@ -48,6 +49,7 @@ def test_build_ablation_table_computes_deltas(tmp_path) -> None:
 
     rows = {row["config_id"]: row for row in report["chapter6_table"]}
     assert rows["E0"]["delta_horizon_vs_e0"] == 0.0
+    assert rows["E1"]["label"] == "+C contextual admission"
     assert rows["E7"]["delta_rfr_vs_e0"] == -1.0
     assert rows["E7"]["delta_horizon_vs_e0"] == 0.8423076923076923
 
@@ -58,11 +60,12 @@ def test_missing_configs_are_reported(tmp_path) -> None:
     report = module.build_report([tmp_path / "kernel"])
 
     assert report["all_required_configs_available"] is False
-    assert report["missing_configs"] == ["E2", "E3", "E7"]
+    assert report["missing_configs"] == ["E1", "E2", "E3", "E7"]
 
 
 def test_render_markdown_contains_chapter_insert(tmp_path) -> None:
     write_sample_result(tmp_path / "kernel" / "E0" / "summary.json", "E0", 1.0, 0.0)
+    write_sample_result(tmp_path / "kernel" / "E1" / "summary.json", "E1", 0.5, 0.5, 0.5)
     write_sample_result(tmp_path / "kernel" / "E2" / "summary.json", "E2", 0.0, 0.3076923076923077)
     write_sample_result(tmp_path / "kernel" / "E3" / "summary.json", "E3", 1.0, 0.75)
     write_sample_result(tmp_path / "kernel" / "E7" / "summary.json", "E7", 0.0, 0.8423076923076923, 1.0)

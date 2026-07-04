@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """R91 CRT-stack ablation report for Chapter 6.
 
-This report imports Mnemosyne deterministic Tier-6 adapter results for E0/E2/E3/E7
+This report imports Mnemosyne deterministic Tier-6 adapter results for E0/E1/E2/E3/E7
 and builds a Chapter 6 CRT ablation table.
 
 Claim boundary:
@@ -32,10 +32,11 @@ DEFAULT_SEARCH_ROOTS = [
     MNEMOSYNE_ROOT / "results/realm_tier6_mnemosyne",
 ]
 
-CONFIG_ORDER = ["E0", "E2", "E3", "E7"]
+CONFIG_ORDER = ["E0", "E1", "E2", "E3", "E7"]
 
 CONFIG_LABELS = {
     "E0": "Engine only",
+    "E1": "+C contextual admission",
     "E2": "+R causal audit",
     "E3": "+T temporal accountability",
     "E7": "+C+R+T full stack",
@@ -43,6 +44,7 @@ CONFIG_LABELS = {
 
 CONFIG_SWITCHES = {
     "E0": {"A": 0, "C": 0, "R": 0, "T": 0},
+    "E1": {"A": 0, "C": 1, "R": 0, "T": 0},
     "E2": {"A": 0, "C": 0, "R": 1, "T": 0},
     "E3": {"A": 0, "C": 0, "R": 0, "T": 1},
     "E7": {"A": 0, "C": 1, "R": 1, "T": 1},
@@ -310,7 +312,7 @@ def build_report(search_roots: List[Path]) -> Dict[str, Any]:
         "schema": SCHEMA,
         "claim_boundary": (
             "R91 imports deterministic Mnemosyne Tier-6 adapter/kernel results "
-            "and reports CRT-stack ablations for E0/E2/E3/E7. It supports "
+            "and reports CRT-stack ablations for E0/E1/E2/E3/E7. It supports "
             "Chapter 6 ablation evidence, not confirmatory-scale evidence."
         ),
         "search_roots": [str(path) for path in search_roots],
@@ -323,9 +325,9 @@ def build_report(search_roots: List[Path]) -> Dict[str, Any]:
         "chapter6_table": table,
         "e7_summary": e7,
         "allowed_claims": [
-            "The deterministic Mnemosyne Tier-6 adapter results support an E0/E2/E3/E7 CRT ablation table.",
+            "The deterministic Mnemosyne Tier-6 adapter results support an E0/E1/E2/E3/E7 CRT ablation table.",
             "E7 can be compared against E0 to quantify full-stack improvement in repeated-failure and horizon-reward metrics.",
-            "E2 and E3 isolate causal-audit and temporal-accountability contributions within the deterministic adapter setting.",
+            "E1, E2, and E3 isolate contextual-admission, causal-audit, and temporal-accountability contributions within the deterministic adapter setting.",
         ],
         "disallowed_claims": [
             "confirmatory-scale benchmark evidence",
@@ -408,7 +410,7 @@ def render_markdown(report: Dict[str, Any]) -> str:
     e7 = report.get("e7_summary") or {}
     if e7 and e7.get("available"):
         lines.append(
-            "The CRT ablation compares E0, E2, E3, and E7 under the deterministic "
+            "The CRT ablation compares E0, E1, E2, E3, and E7 under the deterministic "
             "Mnemosyne Tier-6 adapter setting. The full E7 stack reports repeated "
             f"failure rate `{e7.get('repeated_failure_rate')}`, horizon reward "
             f"`{e7.get('horizon_reward_mean')}`, and grounded admission rate "
