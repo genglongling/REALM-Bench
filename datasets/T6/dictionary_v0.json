@@ -1,0 +1,55 @@
+{
+  "dictionary_version": "tier6-signature-dictionary-v0",
+  "description": "Initial REALM-Bench Tier-6 failure-signature dictionary for cross-episode causal-loop evaluation.",
+  "canonical_form": "constraint_class.disruption_class",
+  "signatures": {
+    "stale_world.route_time_underestimated": {
+      "constraint_class": "stale_world",
+      "entity_role": "route_segment",
+      "disruption_class": "route_time_underestimated",
+      "faculty_axis": "causal",
+      "description": "A plan repeatedly underestimates travel or transition time because the system fails to incorporate observed route delay.",
+      "example_families": ["ride_coordination", "campus_shuttle_patrol", "multi_vehicle_routing"]
+    },
+    "dependency.hotel_active_after_flight_cancelled": {
+      "constraint_class": "dependency",
+      "entity_role": "dependent_reservation",
+      "disruption_class": "hotel_active_after_flight_cancelled",
+      "faculty_axis": "causal",
+      "description": "A downstream commitment remains active after its prerequisite commitment is cancelled or made ineffective.",
+      "example_families": ["travel_planning", "wedding_planning", "thanksgiving_planning"]
+    },
+    "resource.buffer_consumed_by_prior_episode": {
+      "constraint_class": "resource",
+      "entity_role": "shared_buffer",
+      "disruption_class": "buffer_consumed_by_prior_episode",
+      "faculty_axis": "temporal",
+      "description": "A locally attractive choice consumes a buffer needed by a later episode in the same sequence.",
+      "example_families": ["jobshop_breakdown", "supply_chain", "campus_shuttle_patrol"]
+    },
+    "repair.deleted_trigger_evidence": {
+      "constraint_class": "repair",
+      "entity_role": "trigger_evidence",
+      "disruption_class": "deleted_trigger_evidence",
+      "faculty_axis": "safety",
+      "description": "A repair removes or overwrites the evidence that justified the repair, making the correction non-auditable.",
+      "example_families": ["all"]
+    },
+    "temporal.myopic_choice_causes_later_failure": {
+      "constraint_class": "temporal",
+      "entity_role": "sequence_policy",
+      "disruption_class": "myopic_choice_causes_later_failure",
+      "faculty_axis": "temporal",
+      "description": "A choice with high immediate reward predictably lowers later sequence-level reward.",
+      "example_families": ["jobshop_breakdown", "multi_vehicle_routing", "supply_chain"]
+    },
+    "contextual.prior_overrides_declared_task": {
+      "constraint_class": "contextual",
+      "entity_role": "task_interpretation",
+      "disruption_class": "prior_overrides_declared_task",
+      "faculty_axis": "contextual",
+      "description": "The system follows a plausible prior interpretation rather than the declared task context.",
+      "example_families": ["campus_tour", "family_reunion", "travel_planning"]
+    }
+  }
+}

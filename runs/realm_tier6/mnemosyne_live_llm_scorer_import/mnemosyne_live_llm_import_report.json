@@ -1,0 +1,3022 @@
+{
+  "schema": "realm_tier6_mnemosyne_live_llm_import_report_v0",
+  "source_schema": "realm_tier6_live_llm_realm_scorer_handoff_bundle_v0",
+  "claim_boundary": "REALM-Bench-side deterministic import report only. This consumes the Mnemosyne R86 handoff bundle and validates official-scorer-facing cases. It does not yet claim final official REALM scoring or confirmatory Chapter 6 evidence.",
+  "sequence_id": "T6-7e17ef0cc5f3",
+  "config_id": "E7",
+  "condition_label": "full_crt_stack",
+  "official_realm_score": false,
+  "import_type": "mnemosyne_live_llm_scorer_handoff_import",
+  "num_cases": 40,
+  "num_validation_passed": 40,
+  "num_validation_failed": 0,
+  "all_cases_valid": true,
+  "disposition_counts": {
+    "eligible_for_official_realm_admitted_scoring": 29,
+    "eligible_for_official_realm_protective_rejection_scoring": 6,
+    "eligible_for_official_realm_flagged_scoring": 5
+  },
+  "pack_summary": {
+    "claude": {
+      "cases": 10,
+      "validation_passed": 10,
+      "validation_failed": 0,
+      "admission_labels": {
+        "clean_admission": 10
+      },
+      "dispositions": {
+        "eligible_for_official_realm_admitted_scoring": 10
+      }
+    },
+    "gpt": {
+      "cases": 10,
+      "validation_passed": 10,
+      "validation_failed": 0,
+      "admission_labels": {
+        "clean_admission": 7,
+        "protective_rejection": 3
+      },
+      "dispositions": {
+        "eligible_for_official_realm_admitted_scoring": 7,
+        "eligible_for_official_realm_protective_rejection_scoring": 3
+      }
+    },
+    "deepseek_expert": {
+      "cases": 10,
+      "validation_passed": 10,
+      "validation_failed": 0,
+      "admission_labels": {
+        "clean_admission": 5,
+        "flagged_admission": 4,
+        "protective_rejection": 1
+      },
+      "dispositions": {
+        "eligible_for_official_realm_admitted_scoring": 5,
+        "eligible_for_official_realm_flagged_scoring": 4,
+        "eligible_for_official_realm_protective_rejection_scoring": 1
+      }
+    },
+    "deepseek_instant": {
+      "cases": 10,
+      "validation_passed": 10,
+      "validation_failed": 0,
+      "admission_labels": {
+        "protective_rejection": 2,
+        "clean_admission": 7,
+        "flagged_admission": 1
+      },
+      "dispositions": {
+        "eligible_for_official_realm_protective_rejection_scoring": 2,
+        "eligible_for_official_realm_admitted_scoring": 7,
+        "eligible_for_official_realm_flagged_scoring": 1
+      }
+    }
+  },
+  "cases": [
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "06cf7034-fe45-5a28-82a1-a3128843c20e",
+      "source_case_id": "c37dd6dd-e6c7-574f-8b3e-bf90fe3b996b",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "claude",
+      "episode_id": 1,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 0,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Verify breakdown state, then repair the existing schedule via minimal right-shift with optional machine reassignment for the affected operation tail, preserving all pre-disruption evidence; fall back to no-op if observation shows no actual fault.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "c37dd6dd-e6c7-574f-8b3e-bf90fe3b996b"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 1
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "claude"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "5c706449-1552-542d-83fd-313a847f5143",
+      "source_case_id": "fdfaa40c-e746-5d4c-aa86-d27073c7bece",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "claude",
+      "episode_id": 2,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Reactive partial reschedule for the J4 breakdown instance: freeze operations already completed or in-process on unaffected machines, right-shift operations queued on the broken machine to its estimated repair-complete time, then locally re-optimize only the affected downstream operation chain under the active C/R/T disturbance stack.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "fdfaa40c-e746-5d4c-aa86-d27073c7bece"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 2
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "claude"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "13ec7ad1-6115-5554-9b66-f0f5cb99705e",
+      "source_case_id": "d9153c54-eed8-5e20-8493-1f18814ac386",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "claude",
+      "episode_id": 3,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 2,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Affected-operations rescheduling (right-shift + local re-sequencing) for the J4 jobshop breakdown: freeze all operations already completed or in-progress on unaffected machines, reroute or delay only operations queued on the broken machine, and re-optimize their sequence to minimize added makespan.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "d9153c54-eed8-5e20-8493-1f18814ac386"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 3
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "claude"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "afc2240b-32c2-54e5-a165-86b25e5ca8b7",
+      "source_case_id": "142f0c3d-f0c3-5c6e-b947-b42c6e1a791c",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "claude",
+      "episode_id": 4,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Localized right-shift repair of the broken machine's queue with optional migration of feasible operations, minimal disturbance to unaffected jobs, full state logging for Mnemosyne's admission decision.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "142f0c3d-f0c3-5c6e-b947-b42c6e1a791c"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 4
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "claude"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "48fbec93-ad44-5f26-ae83-df87e2e56c14",
+      "source_case_id": "aec52ab7-5c97-533d-a647-09834f5805ca",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "claude",
+      "episode_id": 5,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Apply an affected-operations rescheduling (AOR) repair for the J4 breakdown instance: freeze all operations completed or in-progress before the breakdown, right-shift only operations on the failed machine and their precedence successors, and re-sequence the failed machine's queue by earliest-due/critical-path priority once repair time elapses. No full-schedule regeneration.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "aec52ab7-5c97-533d-a647-09834f5805ca"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 5
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "claude"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "4c5748c2-c25d-57d1-b43b-a515734d7133",
+      "source_case_id": "e8859d3e-7f12-5bd8-8bf6-9dd53499fe04",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "claude",
+      "episode_id": 6,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Affected-operations local reschedule after breakdown: freeze failed machine, reroute or right-shift only blocked operations, preserve baseline sequencing elsewhere.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "e8859d3e-7f12-5bd8-8bf6-9dd53499fe04"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 6
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "claude"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "6de6e107-d134-5cf6-8728-e412b6ac43a9",
+      "source_case_id": "17bc4080-ad41-5e21-bf3c-5f7c10d2868e",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "claude",
+      "episode_id": 7,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Treat episode 7 as a machine-breakdown disruption on the J4 instance: freeze the pre-breakdown schedule prefix, mark the affected machine unavailable for its repair window, and repair the schedule via right-shift plus bounded local re-sequencing of only the operations queued on the broken machine, rather than a full global reschedule.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "17bc4080-ad41-5e21-bf3c-5f7c10d2868e"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 7
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "claude"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "1aeb37ce-3638-51df-b054-df5470fda159",
+      "source_case_id": "ca609f07-70a3-59c7-9734-d888da601329",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "claude",
+      "episode_id": 8,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Verify the breakdown signal against a fresh state observation, then apply a minimal right-shift repair with local reassignment of outage-window operations only, committing nothing until constraints re-validate.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "ca609f07-70a3-59c7-9734-d888da601329"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 8
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "claude"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "42c4f1e5-8107-52fc-a8ba-ab5da2ff7e8e",
+      "source_case_id": "592d7b5f-d733-5fe6-9fa7-53e99aa86a12",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "claude",
+      "episode_id": 9,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Affected-operations right-shift repair on the broken machine with one availability observation before committing, preserving the pre-disruption schedule as evidence.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "592d7b5f-d733-5fe6-9fa7-53e99aa86a12"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 9
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "claude"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "7a8df4ad-f9d7-522d-9f93-4716bcb90a1f",
+      "source_case_id": "9ef0aeb0-4451-51f3-a979-db271c01b73c",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "claude",
+      "episode_id": 10,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 2,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Reactive right-shift repair for the J4 breakdown: freeze completed/in-progress operations, reroute or delay only operations assigned to the broken machine, and re-sequence downstream jobs by critical-ratio priority rather than full reschedule.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "9ef0aeb0-4451-51f3-a979-db271c01b73c"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 10
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "claude"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "c7f7e88d-c40e-5560-900c-dc1152554f94",
+      "source_case_id": "a011f16d-9e18-50a8-bb65-9f3673ce9f5a",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "gpt",
+      "episode_id": 1,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "observation_first",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Start with evidence-preserving inspection only; no repair or schedule mutation yet.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "a011f16d-9e18-50a8-bb65-9f3673ce9f5a"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 1
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "gpt"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "4b0d71bf-566d-5f8f-bc9b-c44019be1fb0",
+      "source_case_id": "10b6926c-886b-55e6-9874-e83208115be1",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "gpt",
+      "episode_id": 2,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "observation_first",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Continue with conservative observation/preservation rather than speculative repair.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "10b6926c-886b-55e6-9874-e83208115be1"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 2
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "gpt"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "4481d622-ef71-53eb-a91b-8fd087dce373",
+      "source_case_id": "ec71cf85-e08d-5f4c-9859-6a0de5599247",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "gpt",
+      "episode_id": 3,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "observation_first",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Preserve state and validate; do not repair without visible violation evidence.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "ec71cf85-e08d-5f4c-9859-6a0de5599247"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 3
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "gpt"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "3addc6be-19c3-5959-bf19-55ba0b97d12d",
+      "source_case_id": "89eebeea-3aec-5f42-a9d9-156ab8d2cc21",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "gpt",
+      "episode_id": 4,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "observation_first",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Use a conservative audit-first recovery step and only apply a minimal local job-shop repair if directly supported by visible constraints.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "89eebeea-3aec-5f42-a9d9-156ab8d2cc21"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 4
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "gpt"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "aa119107-4cdb-5f3c-aab2-14c0f3b7f243",
+      "source_case_id": "904a91b0-e21d-559c-9f13-516e62af0731",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "gpt",
+      "episode_id": 5,
+      "mnemosyne_admission_label": "protective_rejection",
+      "mnemosyne_admitted": false,
+      "mnemosyne_rejected": true,
+      "grounding_flags": [
+        "model_requested_rejection"
+      ],
+      "unsupported_specificity_count": 1,
+      "policy_style": "observation_first",
+      "realm_scorer_action": "score_rejection_as_protective_screening",
+      "realm_import_disposition": "eligible_for_official_realm_protective_rejection_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": true,
+      "proposal_summary": "Do not commit a concrete repair from the visible information; reject irreversible action and preserve state until actual breakdown/schedule evidence is available.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "904a91b0-e21d-559c-9f13-516e62af0731"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 5
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "gpt"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "protective_rejection"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_rejection_as_protective_screening"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "e8785bdc-5541-5918-a299-2c09d5378924",
+      "source_case_id": "2305e37b-e850-5d9b-94af-83221289e465",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "gpt",
+      "episode_id": 6,
+      "mnemosyne_admission_label": "protective_rejection",
+      "mnemosyne_admitted": false,
+      "mnemosyne_rejected": true,
+      "grounding_flags": [
+        "model_requested_rejection"
+      ],
+      "unsupported_specificity_count": 1,
+      "policy_style": "observation_first",
+      "realm_scorer_action": "score_rejection_as_protective_screening",
+      "realm_import_disposition": "eligible_for_official_realm_protective_rejection_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": true,
+      "proposal_summary": "Conservative diagnostic-first recovery: preserve all visible facts, reject unsupported repair, and re-derive the job-shop constraints before acting.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "2305e37b-e850-5d9b-94af-83221289e465"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 6
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "gpt"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "protective_rejection"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_rejection_as_protective_screening"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "3a464b50-c775-5214-894e-1424ec0f018d",
+      "source_case_id": "1f5d1755-236d-5490-bb34-d348d16c8d2b",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "gpt",
+      "episode_id": 7,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "observation_first",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Do not reject yet; preserve evidence and perform a fresh constraint/schedule validation checkpoint before any repair.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "1f5d1755-236d-5490-bb34-d348d16c8d2b"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 7
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "gpt"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "144d3c41-8d3e-571d-a3b6-131dba622665",
+      "source_case_id": "d9ad0dc3-087b-513f-ad43-9f04c130cc8a",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "gpt",
+      "episode_id": 8,
+      "mnemosyne_admission_label": "protective_rejection",
+      "mnemosyne_admitted": false,
+      "mnemosyne_rejected": true,
+      "grounding_flags": [
+        "model_requested_rejection"
+      ],
+      "unsupported_specificity_count": 1,
+      "policy_style": "observation_first",
+      "realm_scorer_action": "score_rejection_as_protective_screening",
+      "realm_import_disposition": "eligible_for_official_realm_protective_rejection_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": true,
+      "proposal_summary": "Insufficient visible state for a concrete job-shop repair; recommend observation-only rejection of any unsupported mutation.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "d9ad0dc3-087b-513f-ad43-9f04c130cc8a"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 8
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "gpt"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "protective_rejection"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_rejection_as_protective_screening"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "4ecb1c38-116c-5b2f-99c9-5d0f25c07351",
+      "source_case_id": "5088d760-6d75-5900-b426-af2ae1ad099b",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "gpt",
+      "episode_id": 9,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "observation_first",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Conservative no-op/observation step: preserve state, reject unsupported repairs, and wait for visible evidence.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "5088d760-6d75-5900-b426-af2ae1ad099b"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 9
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "gpt"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "a432f39e-76f6-5493-8460-696d40d21aa5",
+      "source_case_id": "ca82ac3a-a65a-5a3c-b67a-3db6f998cfe9",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "gpt",
+      "episode_id": 10,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "observation_first",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Continue conservatively; preserve all visible metadata and prior prompt-emission history; do not perform unsupported repair.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "ca82ac3a-a65a-5a3c-b67a-3db6f998cfe9"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 10
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "gpt"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "a18c9289-33f3-5f1a-a398-0d6510a18fa6",
+      "source_case_id": "5e5d08c7-f428-5c0b-a4df-adb370bd1323",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_expert",
+      "episode_id": 1,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "observation_first",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Gather initial system state observation before acting",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "5e5d08c7-f428-5c0b-a4df-adb370bd1323"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 1
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_expert"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "a2beb2a3-58f4-5fd1-8ccb-cf08ea193e5c",
+      "source_case_id": "0816cf53-0cd3-52f7-9a81-365bd257c588",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_expert",
+      "episode_id": 2,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 3,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Immediate M2 repair with right-shift rescheduling prioritizing non-critical-path operations",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "0816cf53-0cd3-52f7-9a81-365bd257c588"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 2
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_expert"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "22524166-3e49-5256-852e-de84d9aee5f2",
+      "source_case_id": "9091f4d1-6d9d-57b7-b5ce-3be45f480a7e",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_expert",
+      "episode_id": 3,
+      "mnemosyne_admission_label": "flagged_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [
+        "moderate_unsupported_specificity"
+      ],
+      "unsupported_specificity_count": 6,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_with_grounding_flags",
+      "realm_import_disposition": "eligible_for_official_realm_flagged_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Run spindle health diagnostic on Machine-2 before committing to full production schedule",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "9091f4d1-6d9d-57b7-b5ce-3be45f480a7e"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 3
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_expert"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "flagged_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_with_grounding_flags"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "065c63db-83ea-5285-ae8c-f27e58b827db",
+      "source_case_id": "a96a7f2b-0be4-5275-81bd-f9553b2a9d97",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_expert",
+      "episode_id": 4,
+      "mnemosyne_admission_label": "flagged_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [
+        "moderate_unsupported_specificity"
+      ],
+      "unsupported_specificity_count": 6,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_with_grounding_flags",
+      "realm_import_disposition": "eligible_for_official_realm_flagged_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Inspect M2, reroute its jobs, and preserve diagnostic data.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "a96a7f2b-0be4-5275-81bd-f9553b2a9d97"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 4
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_expert"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "flagged_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_with_grounding_flags"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "951de1f8-0f4f-5e98-845d-8b7119c31358",
+      "source_case_id": "334ca0db-e8e5-5c42-9059-1b2d8f0f6dcc",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_expert",
+      "episode_id": 5,
+      "mnemosyne_admission_label": "flagged_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [
+        "moderate_unsupported_specificity"
+      ],
+      "unsupported_specificity_count": 9,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_with_grounding_flags",
+      "realm_import_disposition": "eligible_for_official_realm_flagged_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Observe M2 reliability for 20 units, then apply Johnson's rule if stable; fall back to SPT dispatch if breakdowns continue.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "334ca0db-e8e5-5c42-9059-1b2d8f0f6dcc"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 5
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_expert"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "flagged_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_with_grounding_flags"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "9ba87710-c7cf-5fca-b7ce-fd59a67a5806",
+      "source_case_id": "988773a9-e4d6-5559-927c-2f5365b4133e",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_expert",
+      "episode_id": 6,
+      "mnemosyne_admission_label": "flagged_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [
+        "moderate_unsupported_specificity"
+      ],
+      "unsupported_specificity_count": 9,
+      "policy_style": "active_repair",
+      "realm_scorer_action": "score_admitted_with_grounding_flags",
+      "realm_import_disposition": "eligible_for_official_realm_flagged_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Repair M2 immediately and reschedule downstream operations to mitigate breakdown impact on J3/J4.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "988773a9-e4d6-5559-927c-2f5365b4133e"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 6
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_expert"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "flagged_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_with_grounding_flags"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "91b860d5-98fd-5444-835e-1784f4d98359",
+      "source_case_id": "6b19a4be-596c-5a6c-9006-abf1fcad86ec",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_expert",
+      "episode_id": 7,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 0,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Conduct full system state observation before intervening",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "6b19a4be-596c-5a6c-9006-abf1fcad86ec"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 7
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_expert"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "3700ce8d-82ba-55d3-8f99-b1147310d579",
+      "source_case_id": "e550c248-0723-5618-888b-384d5f2037c0",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_expert",
+      "episode_id": 8,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 0,
+      "policy_style": "observation_first",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Observe system state and prepare a conditional recovery plan for the most critical job in case of machine anomaly.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "e550c248-0723-5618-888b-384d5f2037c0"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 8
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_expert"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "41825408-a222-503a-b996-918d90845a96",
+      "source_case_id": "d046e94f-bc85-5e7e-a081-7cf1012ccdbd",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_expert",
+      "episode_id": 9,
+      "mnemosyne_admission_label": "protective_rejection",
+      "mnemosyne_admitted": false,
+      "mnemosyne_rejected": true,
+      "grounding_flags": [
+        "high_unsupported_specificity",
+        "requires_human_review"
+      ],
+      "unsupported_specificity_count": 14,
+      "policy_style": "observation_first",
+      "realm_scorer_action": "score_rejection_as_protective_screening",
+      "realm_import_disposition": "eligible_for_official_realm_protective_rejection_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": true,
+      "proposal_summary": "Apply targeted repair R to machine M2 based on observed intermittent failure signature, preserving diagnostic evidence for root cause analysis",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "d046e94f-bc85-5e7e-a081-7cf1012ccdbd"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 9
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_expert"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "protective_rejection"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_rejection_as_protective_screening"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "baec6b04-18b5-59d5-8736-76bef8431751",
+      "source_case_id": "d5835c1b-73fb-5544-b6b1-8766739de9cd",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_expert",
+      "episode_id": 10,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 4,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Defer M2 repair; continue J4 with active monitoring and plan inspection after job end.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "d5835c1b-73fb-5544-b6b1-8766739de9cd"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 10
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_expert"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "88f89e5c-cdbb-54a5-b368-9842e283e9b9",
+      "source_case_id": "d954c711-b702-5192-a7d4-7af1bc7c9628",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_instant",
+      "episode_id": 1,
+      "mnemosyne_admission_label": "protective_rejection",
+      "mnemosyne_admitted": false,
+      "mnemosyne_rejected": true,
+      "grounding_flags": [
+        "high_unsupported_specificity",
+        "requires_human_review"
+      ],
+      "unsupported_specificity_count": 16,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_rejection_as_protective_screening",
+      "realm_import_disposition": "eligible_for_official_realm_protective_rejection_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": true,
+      "proposal_summary": "Conduct emergent maintenance on C1 based on sensor history, pause non-critical jobs, and restart J4 only after clearance.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "d954c711-b702-5192-a7d4-7af1bc7c9628"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 1
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_instant"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "protective_rejection"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_rejection_as_protective_screening"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "ae242540-00fe-515c-883e-20bc3c4f5a62",
+      "source_case_id": "040b5f62-0f89-515a-9f90-68284a43237a",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_instant",
+      "episode_id": 2,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 0,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Observe current machine states and job queues; re-sequence only operations impacted by the breakdown, preserving completed work and using updated processing times.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "040b5f62-0f89-515a-9f90-68284a43237a"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 2
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_instant"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "cbda7657-8f31-5121-b060-d14cc333e609",
+      "source_case_id": "e458cb2c-6c9d-57d9-a24c-95cbe19f757a",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_instant",
+      "episode_id": 3,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Halt and restart with enhanced CRT diagnostics to resolve invisible state uncertainty.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "e458cb2c-6c9d-57d9-a24c-95cbe19f757a"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 3
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_instant"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "6a5ad87f-2a98-5776-89f1-76a4e8c0ae02",
+      "source_case_id": "94889f88-f8ff-54ba-b80c-901eed8f27e4",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_instant",
+      "episode_id": 4,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 3,
+      "policy_style": "active_repair",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Reset schedule and re-sequence remaining operations with SPT rule and due-date priority.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "94889f88-f8ff-54ba-b80c-901eed8f27e4"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 4
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_instant"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "e239e163-8685-5f01-abb0-90766d22a621",
+      "source_case_id": "622b0ccf-83db-5dcc-a786-a9270233bca5",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_instant",
+      "episode_id": 5,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 0,
+      "policy_style": "observation_first",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Run a full resource-deadlock scan, then release the least critical blocked job to restore flow.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "622b0ccf-83db-5dcc-a786-a9270233bca5"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 5
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_instant"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "7d8ab2e8-ecde-5a1c-a0e8-4ac10d4a9d8d",
+      "source_case_id": "d1a40ab9-0ccf-5b26-adb5-8f781bcb687f",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_instant",
+      "episode_id": 6,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 0,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Pause and observe to fully characterize the breakdown before acting, reducing future missteps.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "d1a40ab9-0ccf-5b26-adb5-8f781bcb687f"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 6
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_instant"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "21a9d82a-c383-5dc0-8a37-9d627d2e9190",
+      "source_case_id": "e5e9b2a0-e9be-561a-93e2-61fa50814e30",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_instant",
+      "episode_id": 7,
+      "mnemosyne_admission_label": "protective_rejection",
+      "mnemosyne_admitted": false,
+      "mnemosyne_rejected": true,
+      "grounding_flags": [
+        "high_unsupported_specificity",
+        "requires_human_review"
+      ],
+      "unsupported_specificity_count": 17,
+      "policy_style": "active_repair",
+      "realm_scorer_action": "score_rejection_as_protective_screening",
+      "realm_import_disposition": "eligible_for_official_realm_protective_rejection_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": true,
+      "proposal_summary": "Shift J4, op3 from M1 start t=8 to M1 start t=12, preserving other assignments and precedence.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "e5e9b2a0-e9be-561a-93e2-61fa50814e30"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 7
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_instant"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "protective_rejection"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_rejection_as_protective_screening"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "897eb1af-0556-50e8-b9bf-970694c678de",
+      "source_case_id": "2e78ecc2-a6f3-53c3-8e44-a3471395edb0",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_instant",
+      "episode_id": 8,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 1,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Execute full maintenance release on all machines to counter potential CRT-stack-induced wear, sacrificing short-term throughput for reliability.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "2e78ecc2-a6f3-53c3-8e44-a3471395edb0"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 8
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_instant"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "b322400c-033b-578a-afca-4e2b5522951a",
+      "source_case_id": "1679eb31-48e6-5302-abe8-844a32af47e6",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_instant",
+      "episode_id": 9,
+      "mnemosyne_admission_label": "flagged_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [
+        "moderate_unsupported_specificity"
+      ],
+      "unsupported_specificity_count": 6,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_with_grounding_flags",
+      "realm_import_disposition": "eligible_for_official_realm_flagged_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Insert one extra maintenance pause on M1 before the most congested period, and re-sequence the two largest remaining jobs to avoid simultaneous load, splitting one if necessary.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "1679eb31-48e6-5302-abe8-844a32af47e6"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 9
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_instant"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "flagged_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_with_grounding_flags"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    },
+    {
+      "schema": "realm_tier6_mnemosyne_live_llm_import_case_v0",
+      "import_id": "7816de4c-f65f-58f7-9db9-cdab5856dbc1",
+      "source_case_id": "29ecc0e6-511a-51e4-975b-7afd9573084c",
+      "sequence_id": "T6-7e17ef0cc5f3",
+      "config_id": "E7",
+      "condition_label": "full_crt_stack",
+      "pack_name": "deepseek_instant",
+      "episode_id": 10,
+      "mnemosyne_admission_label": "clean_admission",
+      "mnemosyne_admitted": true,
+      "mnemosyne_rejected": false,
+      "grounding_flags": [],
+      "unsupported_specificity_count": 2,
+      "policy_style": "mixed",
+      "realm_scorer_action": "score_admitted_proposal",
+      "realm_import_disposition": "eligible_for_official_realm_admitted_scoring",
+      "safety_passed_before_official_scoring": true,
+      "screened_before_commit": false,
+      "proposal_summary": "Proceed with a state-gathering observation of machine loads and queues, focusing on bottleneck machine M3, to inform future repair or rescheduling actions.",
+      "validation_checks": [
+        {
+          "name": "case_id_present",
+          "passed": true,
+          "detail": {
+            "case_id": "29ecc0e6-511a-51e4-975b-7afd9573084c"
+          }
+        },
+        {
+          "name": "episode_id_present",
+          "passed": true,
+          "detail": {
+            "episode_id": 10
+          }
+        },
+        {
+          "name": "pack_name_present",
+          "passed": true,
+          "detail": {
+            "pack_name": "deepseek_instant"
+          }
+        },
+        {
+          "name": "valid_admission_label",
+          "passed": true,
+          "detail": {
+            "label": "clean_admission"
+          }
+        },
+        {
+          "name": "valid_scorer_action",
+          "passed": true,
+          "detail": {
+            "scorer_action": "score_admitted_proposal"
+          }
+        },
+        {
+          "name": "official_score_not_claimed",
+          "passed": true,
+          "detail": {
+            "official_realm_score": false
+          }
+        },
+        {
+          "name": "requires_official_scorer",
+          "passed": true,
+          "detail": {
+            "requires_official_realm_scorer": true
+          }
+        }
+      ],
+      "validation_passed": true
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+[
+  {
+    "name": "pilot_table_ready",
+    "passed": true,
+    "evidence": {
+      "ready_for_chapter_6_pilot_table": true,
+      "ready_for_confirmatory_claims": false,
+      "num_events": 40,
+      "safety_passed": true,
+      "horizon_reward_mean": 0.90125,
+      "grounded_admission_rate": 0.725
+    }
+  },
+  {
+    "name": "confirmatory_claims_not_ready",
+    "passed": true,
+    "evidence": {
+      "ready_for_chapter_6_pilot_table": true,
+      "ready_for_confirmatory_claims": false,
+      "num_events": 40,
+      "safety_passed": true,
+      "horizon_reward_mean": 0.90125,
+      "grounded_admission_rate": 0.725
+    }
+  },
+  {
+    "name": "live_llm_pilot_safety_passed",
+    "passed": true,
+    "evidence": {
+      "ready_for_chapter_6_pilot_table": true,
+      "ready_for_confirmatory_claims": false,
+      "num_events": 40,
+      "safety_passed": true,
+      "horizon_reward_mean": 0.90125,
+      "grounded_admission_rate": 0.725
+    }
+  },
+  {
+    "name": "deterministic_baselines_present",
+    "passed": true,
+    "evidence": {
+      "num_sequences": 15,
+      "num_episodes": 150,
+      "families": [
+        "jobshop_breakdown",
+        "ride_or_routing_disruption",
+        "wedding_recovery"
+      ],
+      "num_table_rows": 3,
+      "has_b0": true,
+      "has_bstar": true,
+      "has_live_llm_pilot": true
+    }
+  },
+  {
+    "name": "full_deterministic_development_shape_present",
+    "passed": true,
+    "evidence": {
+      "num_sequences": 15,
+      "num_episodes": 150,
+      "families": [
+        "jobshop_breakdown",
+        "ride_or_routing_disruption",
+        "wedding_recovery"
+      ],
+      "num_table_rows": 3,
+      "has_b0": true,
+      "has_bstar": true,
+      "has_live_llm_pilot": true
+    }
+  },
+  {
+    "name": "crt_ablation_configs_present",
+    "passed": true,
+    "evidence": {
+      "available_configs": [
+        "E0",
+        "E2",
+        "E3",
+        "E7"
+      ],
+      "missing_configs": [],
+      "all_required_configs_available": true,
+      "e7_summary": {
+        "config_id": "E7",
+        "label": "+C+R+T full stack",
+        "switches": {
+          "A": 0,
+          "C": 1,
+          "R": 1,
+          "T": 1
+        },
+        "available": true,
+        "source_path": "/Users/edward.chang/ALAS/AGIV3/mnemosyne_product/results/realm_tier6_mnemosyne_kernel/mnemosyne_tier6_E7_kernel_adapter_v0/summary.json",
+        "num_events": 78,
+        "safety_passed": true,
+        "repeated_failure_rate": 0.0,
+        "horizon_reward_mean": 0.8423076923076923,
+        "grounded_admission_rate": 1.0,
+        "rfr_bracket_position": 1.0,
+        "horizon_bracket_position": 0.8423076923076923,
+        "delta_rfr_vs_e0": -1.0,
+        "delta_horizon_vs_e0": 0.8423076923076923
+      }
+    }
+  },
+  {
+    "name": "family_stratified_baselines_present",
+    "passed": true,
+    "evidence": {
+      "families": [
+        "jobshop_breakdown",
+        "ride_or_routing_disruption",
+        "wedding_recovery"
+      ],
+      "r88_live_llm_pilot_available": true,
+      "num_family_table_rows": 7,
+      "live_pilot_family": "jobshop_breakdown"
+    }
+  },
+  {
+    "name": "bounded_live_llm_pilot_expansion_gate_present",
+    "passed": true,
+    "evidence": {
+      "bounded_pilot_ready": true,
+      "family_generalized_live_llm_ready": false,
+      "additional_cases_needed_for_three_family_live_pilot": 120,
+      "total_target_cases": 120,
+      "existing_r88_collected": 0,
+      "planned_not_collected": 120
+    }
+  },
+  {
+    "name": "additional_live_llm_cases_are_explicit",
+    "passed": true,
+    "evidence": {
+      "bounded_pilot_ready": true,
+      "family_generalized_live_llm_ready": false,
+      "additional_cases_needed_for_three_family_live_pilot": 120,
+      "total_target_cases": 120,
+      "existing_r88_collected": 0,
+      "planned_not_collected": 120
+    }
+  }
+]

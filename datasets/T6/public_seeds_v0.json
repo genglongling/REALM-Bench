@@ -1,0 +1,12 @@
+{
+  "seed_set_version": "tier6-public-seeds-v0",
+  "description": "Initial public development seeds for REALM-Bench Tier 6.",
+  "episodes_per_sequence": 10,
+  "public_sequence_seeds": [17, 23, 42, 101, 271],
+  "pilot_subset": {
+    "families": ["jobshop_breakdown"],
+    "sequences_per_family": 5,
+    "purpose": "Harness validation and variance estimation before confirmatory runs."
+  },
+  "control_sequence_fraction_minimum": 0.2
+}

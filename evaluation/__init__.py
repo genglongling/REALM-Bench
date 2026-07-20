@@ -1,42 +1,38 @@
 """
-REALM-Bench Evaluation Framework
+REALM-Bench Evaluation Framework.
 
-This package provides comprehensive evaluation metrics for multi-agent planning tasks
-across different agent frameworks and real-world scenarios.
+The package root uses lazy imports so lightweight modules such as
+evaluation.tier6.schemas and evaluation.tier6.scorer can be imported without
+loading optional/heavy dependencies from the legacy evaluator stack.
 """
 
-from .metrics import (
-    PlanningQualityMetrics,
-    PlanningOptimalityMetrics,
-    CoordinationEffectivenessMetrics,
-    ConstraintSatisfactionMetrics,
-    ResourceUsageMetrics,
-    AdaptationMetrics
-)
+from importlib import import_module
 
-from .evaluator import (
-    TaskEvaluator,
-    FrameworkEvaluator,
-    BenchmarkEvaluator
-)
 
-from .task_definitions import (
-    TASK_DEFINITIONS,
-    TaskDefinition,
-    TaskResult
-)
+_LAZY_ATTRS = {
+    "PlanningQualityMetrics": "evaluation.metrics",
+    "PlanningOptimalityMetrics": "evaluation.metrics",
+    "CoordinationEffectivenessMetrics": "evaluation.metrics",
+    "ConstraintSatisfactionMetrics": "evaluation.metrics",
+    "ResourceUsageMetrics": "evaluation.metrics",
+    "AdaptationMetrics": "evaluation.metrics",
+    "TaskEvaluator": "evaluation.evaluator",
+    "FrameworkEvaluator": "evaluation.evaluator",
+    "BenchmarkEvaluator": "evaluation.evaluator",
+    "TASK_DEFINITIONS": "evaluation.task_definitions",
+    "TaskDefinition": "evaluation.task_definitions",
+    "TaskResult": "evaluation.task_definitions",
+}
 
-__all__ = [
-    'PlanningQualityMetrics',
-    'PlanningOptimalityMetrics', 
-    'CoordinationEffectivenessMetrics',
-    'ConstraintSatisfactionMetrics',
-    'ResourceUsageMetrics',
-    'AdaptationMetrics',
-    'TaskEvaluator',
-    'FrameworkEvaluator',
-    'BenchmarkEvaluator',
-    'TASK_DEFINITIONS',
-    'TaskDefinition',
-    'TaskResult'
-] 
+
+__all__ = sorted(_LAZY_ATTRS)
+
+
+def __getattr__(name):
+    if name not in _LAZY_ATTRS:
+        raise AttributeError(f"module 'evaluation' has no attribute {name!r}")
+
+    module = import_module(_LAZY_ATTRS[name])
+    value = getattr(module, name)
+    globals()[name] = value
+    return value
